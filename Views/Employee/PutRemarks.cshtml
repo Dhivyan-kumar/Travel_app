@@ -1,0 +1,34 @@
+@model Webapplication.Models.Ratings; 
+@{
+  Layout="/Views/Shared/_userLayout.cshtml";
+}
+@* background-color:#7CB9E8 *@
+<body style="background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );">
+<div class="feedback">
+<strong>Thank you for using this web application to apply reimbursement. We would like to know how we performed. Please spare some moments to give us your valuable feedback as it will help us in improving our service.</strong>
+ 
+<h4>Please rate your service experience for the following parameters</h4>
+ 
+<form method="post" asp-action="PutRemarks" asp-controller="Employee">
+  <label asp-for="EmployeeId">Employee ID</label>                 
+  <input  type="text" asp-for="EmployeeId" class="form-control" value="@ViewBag.Message" name="id" required/>
+<label asp-for="Rating">1. Your overall experience with us ?</label><br>
+  
+<label asp-for="Rating">Give your ratings</label>
+<select asp-for="Rating" class="form-control" id="t1" name = "ra">
+<option>--Choose--</option>
+<option>Good</option>
+<option>Average</option>
+<option>Best</option>
+<option>Worst</option>
+</select>
+  <div class="clear"></div> 
+  <hr class="survey-hr"> 
+<label asp-for="Feedback">2. Any Other suggestions:</label><br/><br/>
+<textarea type="text" asp-for="Feedback" name = "fe" cols="75"  rows="5" style="100%"></textarea><br>
+<br>
+  <div class="clear"></div> 
+<input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review"> 
+</form>
+</body>
+

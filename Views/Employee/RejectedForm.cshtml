@@ -1,0 +1,77 @@
+@model IEnumerable<Employees>
+@{
+    Layout="/Views/Shared/_userLayout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .table > thead > tr >th{
+        background-color: #0066b2;
+        color:white;
+    }
+    h1{
+        color:red;
+    }
+     input[type=submit]{
+  background-color:#0066b2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+    <body>
+        <h1 style="text-align:left;">Rejected Reports</h1><br>
+        <div class="contains">
+        <table class="table" style="margin-left: -2.8rem;">
+  <thead>
+    <tr>
+      <th scope="col">@Html.DisplayNameFor(model => model.EmployeeId)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.EmployeeName)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.StartDate)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.EndDate)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.ProjectTitle)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.TripTo)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Description1)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Cost1)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Description2)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Cost2)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Description3)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Cost3)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.TotalCost)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Attachment)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Suggesstion)</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+    <tr>
+      <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+      <td>@Html.DisplayFor(modelItem => item.EmployeeName)</td>
+      <td>@Html.DisplayFor(modelItem => item.StartDate)</td>
+      <td>@Html.DisplayFor(modelItem => item.EndDate)</td>
+      <td>@Html.DisplayFor(modelItem => item.ProjectTitle)</td>
+      <td>@Html.DisplayFor(modelItem => item.TripTo)</td>
+      <td>@Html.DisplayFor(modelItem => item.Description1)</td>
+      <td>@Html.DisplayFor(modelItem => item.Cost1)</td>
+      <td>@Html.DisplayFor(modelItem => item.Description2)</td>
+      <td>@Html.DisplayFor(modelItem => item.Cost2)</td>
+      <td>@Html.DisplayFor(modelItem => item.Description3)</td>
+      <td>@Html.DisplayFor(modelItem => item.Cost3)</td>
+      <td>@Html.DisplayFor(modelItem => item.TotalCost)</td>
+      <td>@Html.DisplayFor(modelItem => item.Attachment)</td>
+      <td>@Html.DisplayFor(modelItem => item.Suggesstion)</td>
+    </tr> 
+    }
+  </tbody>
+</table>
+</div>
+<input name="action" type="submit" value="Back" onclick="window.history.back();"/> 
+    </body>
+</html>

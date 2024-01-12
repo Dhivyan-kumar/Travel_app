@@ -1,0 +1,101 @@
+@model IEnumerable<Employees>
+@{
+    Layout="/Views/Shared/_adminLayout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .table > thead > tr >th{
+        background-color: #0066b2;
+        color:white;
+    }
+    h1{
+        color:red;
+    }
+     @* body {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+} *@
+ .accept {
+  color: white;
+  background:  rgb(9, 238, 93);
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.accept:hover {
+  background: #077e07b7;
+} 
+.deny {
+  color: #FFF;
+  background: rgb(238, 40, 5);
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.deny:hover {
+  background:#ad3737 ;
+} 
+
+</style>
+</head>
+    <body>
+        <h1 style="text-align:left;">Reports Requests</h1><br>
+        <div class="contains">
+        <table class="table" style="margin-left: 2rem;">
+  <thead>
+    <tr>
+        <th>Approval</th>
+        <th>Rejection</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.EmployeeId)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.EmployeeName)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.StartDate)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.EndDate)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.ProjectTitle)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.TripTo)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Description1)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Cost1)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Description2)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Cost2)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Description3)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Cost3)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.TotalCost)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Attachment)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Suggesstion)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    
+    @foreach (var item in Model)
+    {
+    <tr>
+      <td><a href=@Url.Action("Approve","Admin",item)><button class="accept" onclick=>Approve</button><span class="fa fa-check"></span></a></td>
+      <td><a href=@Url.Action("Reject","Admin",item)><button  class="deny"onclick=>Reject</button><span class="fa fa-close"></span></a></td>
+      <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+      <td>@Html.DisplayFor(modelItem => item.EmployeeName)</td>
+      <td>@Html.DisplayFor(modelItem => item.StartDate)</td>
+      <td>@Html.DisplayFor(modelItem => item.EndDate)</td>
+      <td>@Html.DisplayFor(modelItem => item.ProjectTitle)</td>
+      <td>@Html.DisplayFor(modelItem => item.TripTo)</td>
+      <td>@Html.DisplayFor(modelItem => item.Description1)</td>
+      <td>@Html.DisplayFor(modelItem => item.Cost1)</td>
+      <td>@Html.DisplayFor(modelItem => item.Description2)</td>
+      <td>@Html.DisplayFor(modelItem => item.Cost2)</td>
+      <td>@Html.DisplayFor(modelItem => item.Description3)</td>
+      <td>@Html.DisplayFor(modelItem => item.Cost3)</td>
+      <td>@Html.DisplayFor(modelItem => item.TotalCost)</td>
+      @{
+        string path = "../Files/"+item.Attachment;
+      }
+      <td><a href=@path>PDF</a></td>
+      <td>@Html.DisplayFor(modelItem => item.Suggesstion)</td>
+    </tr> 
+    }
+  </tbody>
+</table>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,468 @@
+2023-12-26 10:38:52.939 +05:30 [INF] User profile is available. Using 'C:\Users\dhivy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 10:38:53.105 +05:30 [INF] Now listening on: http://localhost:5006
+2023-12-26 10:38:53.109 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 10:38:53.110 +05:30 [INF] Hosting environment: Development
+2023-12-26 10:38:53.112 +05:30 [INF] Content root path: C:\Users\dhivy\Documents\App\Webapplication
+2023-12-26 10:39:59.550 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - -
+2023-12-26 10:39:59.564 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-26 10:39:59.635 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:39:59.680 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:39:59.724 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:39:59.893 +05:30 [INF] Executed ViewResult - view Index executed in 177.1381ms.
+2023-12-26 10:39:59.907 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 223.7097ms
+2023-12-26 10:39:59.912 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:39:59.928 +05:30 [INF] HTTP GET / responded 200 in 364.4483 ms
+2023-12-26 10:39:59.946 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - - - 200 - text/html;+charset=utf-8 403.3879ms
+2023-12-26 10:40:02.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:40:02.851 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:40:02.858 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:40:02.876 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 3.1584ms
+2023-12-26 10:40:02.887 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:40:02.891 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 43.9103 ms
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-26 10:40:02.943 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-26 10:40:03.002 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 500 - text/html;+charset=utf-8 155.8497ms
+2023-12-26 10:41:16.952 +05:30 [INF] Application is shutting down...
+2023-12-26 10:41:46.788 +05:30 [INF] User profile is available. Using 'C:\Users\dhivy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 10:41:46.927 +05:30 [INF] Now listening on: http://localhost:5006
+2023-12-26 10:41:46.931 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 10:41:46.933 +05:30 [INF] Hosting environment: Development
+2023-12-26 10:41:46.934 +05:30 [INF] Content root path: C:\Users\dhivy\Documents\App\Webapplication
+2023-12-26 10:41:50.263 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - -
+2023-12-26 10:41:50.284 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-26 10:41:50.359 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:41:50.398 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:41:50.434 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:41:50.606 +05:30 [INF] Executed ViewResult - view Index executed in 178.5772ms.
+2023-12-26 10:41:50.614 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 211.6602ms
+2023-12-26 10:41:50.617 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:41:50.624 +05:30 [INF] HTTP GET / responded 200 in 344.0180 ms
+2023-12-26 10:41:50.641 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - - - 200 - text/html;+charset=utf-8 378.9567ms
+2023-12-26 10:41:53.085 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:41:53.091 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:41:53.096 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:41:53.106 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 3.9764ms
+2023-12-26 10:41:53.108 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:41:53.111 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 24.6073 ms
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-26 10:41:53.131 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-26 10:41:53.175 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 500 - text/html;+charset=utf-8 90.0371ms
+2023-12-26 10:42:00.908 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - -
+2023-12-26 10:42:00.912 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2023-12-26 10:42:00.915 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:42:00.923 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2023-12-26 10:42:00.930 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2023-12-26 10:42:00.942 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 23.2882ms
+2023-12-26 10:42:00.944 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2023-12-26 10:42:00.946 +05:30 [INF] HTTP GET /Home/Create responded 302 in 36.6165 ms
+2023-12-26 10:42:00.948 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - - - 302 0 - 40.2508ms
+2023-12-26 10:42:00.953 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:42:00.957 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:42:00.958 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:42:00.961 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 0.3452ms
+2023-12-26 10:42:00.963 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:42:00.965 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 10.0343 ms
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-26 10:42:00.978 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-26 10:42:00.994 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 500 - text/html;+charset=utf-8 40.3481ms
+2023-12-26 10:42:56.186 +05:30 [INF] Application is shutting down...
+2023-12-26 10:43:14.532 +05:30 [INF] User profile is available. Using 'C:\Users\dhivy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 10:43:14.702 +05:30 [INF] Now listening on: http://localhost:5006
+2023-12-26 10:43:14.705 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 10:43:14.707 +05:30 [INF] Hosting environment: Development
+2023-12-26 10:43:14.708 +05:30 [INF] Content root path: C:\Users\dhivy\Documents\App\Webapplication
+2023-12-26 10:43:16.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - -
+2023-12-26 10:43:16.543 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-26 10:43:16.616 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:43:16.654 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:43:16.699 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:43:16.844 +05:30 [INF] Executed ViewResult - view Index executed in 157.2468ms.
+2023-12-26 10:43:16.852 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 193.3398ms
+2023-12-26 10:43:16.858 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:43:16.867 +05:30 [INF] HTTP GET / responded 200 in 329.0702 ms
+2023-12-26 10:43:16.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - - - 200 - text/html;+charset=utf-8 355.8528ms
+2023-12-26 10:43:18.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:43:18.603 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:43:18.611 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:43:18.618 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 1.9625ms
+2023-12-26 10:43:18.621 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:43:18.623 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 24.5733 ms
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-26 10:43:18.654 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Webapplication.Models.Validation' while attempting to activate 'Webapplication.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-26 10:43:18.700 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 500 - text/html;+charset=utf-8 103.0758ms
+2023-12-26 10:44:35.207 +05:30 [INF] Application is shutting down...
+2023-12-26 10:45:02.357 +05:30 [INF] User profile is available. Using 'C:\Users\dhivy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 10:45:02.519 +05:30 [INF] Now listening on: http://localhost:5006
+2023-12-26 10:45:02.522 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 10:45:02.524 +05:30 [INF] Hosting environment: Development
+2023-12-26 10:45:02.525 +05:30 [INF] Content root path: C:\Users\dhivy\Documents\App\Webapplication
+2023-12-26 10:45:04.472 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - -
+2023-12-26 10:45:04.501 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-26 10:45:04.576 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:45:04.613 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:45:04.654 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:45:04.828 +05:30 [INF] Executed ViewResult - view Index executed in 180.616ms.
+2023-12-26 10:45:04.837 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 220.3217ms
+2023-12-26 10:45:04.842 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:45:04.854 +05:30 [INF] HTTP GET / responded 200 in 362.2931 ms
+2023-12-26 10:45:04.888 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - - - 200 - text/html;+charset=utf-8 419.9034ms
+2023-12-26 10:45:07.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:45:07.119 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:07.130 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:45:07.469 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2023-12-26 10:45:07.629 +05:30 [INF] Executed ViewResult - view LoginPage executed in 162.7405ms.
+2023-12-26 10:45:07.632 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 474.7149ms
+2023-12-26 10:45:07.634 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:07.641 +05:30 [INF] Session started; Key:37377793-0484-ec7a-f9ab-f5c40e9ca8ad, Id:a17c0fd1-d4e2-f470-2a01-946ba19c0470
+2023-12-26 10:45:07.646 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 531.0216 ms
+2023-12-26 10:45:07.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 200 - text/html;+charset=utf-8 539.3527ms
+2023-12-26 10:45:11.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - -
+2023-12-26 10:45:11.820 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:45:11.822 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:45:11.831 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:45:11.837 +05:30 [INF] Executed ViewResult - view Index executed in 6.5622ms.
+2023-12-26 10:45:11.840 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 13.2832ms
+2023-12-26 10:45:11.844 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:45:11.848 +05:30 [INF] HTTP GET / responded 200 in 31.2302 ms
+2023-12-26 10:45:11.851 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - - - 200 - text/html;+charset=utf-8 36.3536ms
+2023-12-26 10:45:12.579 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Privacy - -
+2023-12-26 10:45:12.586 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Privacy (Webapplication)'
+2023-12-26 10:45:12.592 +05:30 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:45:12.616 +05:30 [INF] Executing ViewResult, running view Privacy.
+2023-12-26 10:45:12.647 +05:30 [INF] Executed ViewResult - view Privacy executed in 33.5455ms.
+2023-12-26 10:45:12.650 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Privacy (Webapplication) in 42.0543ms
+2023-12-26 10:45:12.652 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Privacy (Webapplication)'
+2023-12-26 10:45:12.653 +05:30 [INF] HTTP GET /Home/Privacy responded 200 in 69.1803 ms
+2023-12-26 10:45:12.656 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Privacy - - - 200 - text/html;+charset=utf-8 77.2116ms
+2023-12-26 10:45:13.359 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - -
+2023-12-26 10:45:13.362 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2023-12-26 10:45:13.366 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:45:13.372 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2023-12-26 10:45:13.377 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2023-12-26 10:45:13.381 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 12.2998ms
+2023-12-26 10:45:13.383 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2023-12-26 10:45:13.385 +05:30 [INF] HTTP GET /Home/Create responded 302 in 24.2563 ms
+2023-12-26 10:45:13.388 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - - - 302 0 - 29.5828ms
+2023-12-26 10:45:13.393 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:45:13.396 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:13.398 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:45:13.405 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2023-12-26 10:45:13.414 +05:30 [INF] Executed ViewResult - view LoginPage executed in 8.835ms.
+2023-12-26 10:45:13.416 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 14.1848ms
+2023-12-26 10:45:13.418 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:13.421 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 27.6142 ms
+2023-12-26 10:45:13.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 200 - text/html;+charset=utf-8 31.9959ms
+2023-12-26 10:45:18.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - -
+2023-12-26 10:45:18.081 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:45:18.083 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2023-12-26 10:45:18.089 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:45:18.092 +05:30 [INF] Executed ViewResult - view Index executed in 3.5891ms.
+2023-12-26 10:45:18.096 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 9.3837ms
+2023-12-26 10:45:18.098 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2023-12-26 10:45:18.106 +05:30 [INF] HTTP GET / responded 200 in 25.1201 ms
+2023-12-26 10:45:18.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - - - 200 - text/html;+charset=utf-8 31.3118ms
+2023-12-26 10:45:19.547 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:45:19.549 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:19.551 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:45:19.558 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2023-12-26 10:45:19.565 +05:30 [INF] Executed ViewResult - view LoginPage executed in 7.3381ms.
+2023-12-26 10:45:19.610 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 56.5699ms
+2023-12-26 10:45:19.613 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:19.615 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 66.6575 ms
+2023-12-26 10:45:19.633 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 200 - text/html;+charset=utf-8 85.7135ms
+2023-12-26 10:45:21.224 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage application/x-www-form-urlencoded 224
+2023-12-26 10:45:21.226 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:21.244 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:45:21.310 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Start.
+2023-12-26 10:45:21.315 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 68.0081ms
+2023-12-26 10:45:21.317 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:21.319 +05:30 [INF] HTTP POST /Login/LoginPage responded 307 in 93.2576 ms
+2023-12-26 10:45:21.322 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage application/x-www-form-urlencoded 224 - 307 0 - 97.9564ms
+2023-12-26 10:45:21.329 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Start application/x-www-form-urlencoded 224
+2023-12-26 10:45:21.331 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2023-12-26 10:45:21.334 +05:30 [INF] Route matched with {action = "Start", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Start() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2023-12-26 10:45:21.529 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Create.
+2023-12-26 10:45:21.531 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Start (Webapplication) in 194.0614ms
+2023-12-26 10:45:21.533 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2023-12-26 10:45:21.535 +05:30 [INF] HTTP POST /Employee/Start responded 302 in 204.6112 ms
+2023-12-26 10:45:21.547 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Start application/x-www-form-urlencoded 224 - 302 0 - 217.8618ms
+2023-12-26 10:45:21.549 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - -
+2023-12-26 10:45:21.554 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2023-12-26 10:45:21.559 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2023-12-26 10:45:21.607 +05:30 [INF] Executing ViewResult, running view Create.
+2023-12-26 10:45:21.749 +05:30 [INF] Executed ViewResult - view Create executed in 143.6964ms.
+2023-12-26 10:45:21.751 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 188.8524ms
+2023-12-26 10:45:21.754 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2023-12-26 10:45:21.756 +05:30 [INF] HTTP GET /Employee/Create responded 200 in 205.7809 ms
+2023-12-26 10:45:21.762 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - - - 200 - text/html;+charset=utf-8 211.9362ms
+2023-12-26 10:45:23.653 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee - -
+2023-12-26 10:45:23.655 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2023-12-26 10:45:23.660 +05:30 [INF] Route matched with {action = "Index", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2023-12-26 10:45:24.244 +05:30 [WRN] No store type was specified for the decimal property 'Cost1' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-26 10:45:24.247 +05:30 [WRN] No store type was specified for the decimal property 'Cost2' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-26 10:45:24.249 +05:30 [WRN] No store type was specified for the decimal property 'Cost3' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-26 10:45:24.252 +05:30 [WRN] No store type was specified for the decimal property 'TotalCost' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-26 10:45:24.453 +05:30 [INF] Executing ViewResult, running view Index.
+2023-12-26 10:45:25.269 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0
+2023-12-26 10:45:25.459 +05:30 [INF] Executed ViewResult - view Index executed in 1006.7239ms.
+2023-12-26 10:45:25.462 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Index (Webapplication) in 1798.8588ms
+2023-12-26 10:45:25.470 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2023-12-26 10:45:25.473 +05:30 [INF] HTTP GET /Employee responded 200 in 1818.6376 ms
+2023-12-26 10:45:25.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee - - - 200 - text/html;+charset=utf-8 1861.1988ms
+2023-12-26 10:45:28.226 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Profile - -
+2023-12-26 10:45:28.230 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Profile (Webapplication)'
+2023-12-26 10:45:28.235 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2023-12-26 10:45:28.255 +05:30 [INF] Executing ViewResult, running view Profile.
+2023-12-26 10:45:28.264 +05:30 [INF] Executed ViewResult - view Profile executed in 10.9294ms.
+2023-12-26 10:45:28.267 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Profile (Webapplication) in 23.382ms
+2023-12-26 10:45:28.269 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Profile (Webapplication)'
+2023-12-26 10:45:28.270 +05:30 [INF] HTTP GET /Employee/Profile responded 200 in 41.1093 ms
+2023-12-26 10:45:28.274 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Profile - - - 200 - text/html;+charset=utf-8 47.9333ms
+2023-12-26 10:45:30.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/PutRemarks - -
+2023-12-26 10:45:30.197 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.PutRemarks (Webapplication)'
+2023-12-26 10:45:30.201 +05:30 [INF] Route matched with {action = "PutRemarks", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PutRemarks() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2023-12-26 10:45:30.216 +05:30 [INF] Executing ViewResult, running view PutRemarks.
+2023-12-26 10:45:30.245 +05:30 [INF] Executed ViewResult - view PutRemarks executed in 30.5237ms.
+2023-12-26 10:45:30.248 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.PutRemarks (Webapplication) in 44.0217ms
+2023-12-26 10:45:30.249 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.PutRemarks (Webapplication)'
+2023-12-26 10:45:30.251 +05:30 [INF] HTTP GET /Employee/PutRemarks responded 200 in 54.4400 ms
+2023-12-26 10:45:30.254 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/PutRemarks - - - 200 - text/html;+charset=utf-8 58.8900ms
+2023-12-26 10:45:31.835 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - -
+2023-12-26 10:45:31.838 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2023-12-26 10:45:31.856 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2023-12-26 10:45:31.868 +05:30 [INF] Executing ViewResult, running view Status.
+2023-12-26 10:45:31.888 +05:30 [INF] Executed ViewResult - view Status executed in 20.989ms.
+2023-12-26 10:45:31.890 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 30.6608ms
+2023-12-26 10:45:31.892 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2023-12-26 10:45:31.894 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 56.5255 ms
+2023-12-26 10:45:31.899 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - - - 200 - text/html;+charset=utf-8 64.1378ms
+2023-12-26 10:45:34.331 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - -
+2023-12-26 10:45:34.333 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:34.335 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:45:34.338 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2023-12-26 10:45:34.341 +05:30 [INF] Executed ViewResult - view LoginPage executed in 3.3515ms.
+2023-12-26 10:45:34.344 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 6.6608ms
+2023-12-26 10:45:34.346 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:34.349 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 16.6226 ms
+2023-12-26 10:45:34.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - - - 200 - text/html;+charset=utf-8 21.6233ms
+2023-12-26 10:45:37.482 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage application/x-www-form-urlencoded 224
+2023-12-26 10:45:37.484 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:37.486 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2023-12-26 10:45:37.492 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Home.
+2023-12-26 10:45:37.494 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 5.7548ms
+2023-12-26 10:45:37.496 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2023-12-26 10:45:37.498 +05:30 [INF] HTTP POST /Login/LoginPage responded 302 in 14.0316 ms
+2023-12-26 10:45:37.501 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage application/x-www-form-urlencoded 224 - 302 0 - 18.8013ms
+2023-12-26 10:45:37.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Home - -
+2023-12-26 10:45:37.509 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Home (Webapplication)'
+2023-12-26 10:45:37.513 +05:30 [INF] Route matched with {action = "Home", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Home() on controller Webapplication.Controllers.AdminController (Webapplication).
+2023-12-26 10:45:37.526 +05:30 [INF] Executing ViewResult, running view Home.
+2023-12-26 10:45:37.588 +05:30 [INF] Executed ViewResult - view Home executed in 62.6933ms.
+2023-12-26 10:45:37.590 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Home (Webapplication) in 73.0664ms
+2023-12-26 10:45:37.592 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Home (Webapplication)'
+2023-12-26 10:45:37.593 +05:30 [INF] HTTP GET /Admin/Home responded 200 in 84.5867 ms
+2023-12-26 10:45:37.597 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Home - - - 200 - text/html;+charset=utf-8 89.3062ms
+2023-12-26 10:45:39.645 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Reports - -
+2023-12-26 10:45:39.650 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2023-12-26 10:45:39.659 +05:30 [INF] Route matched with {action = "Reports", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Reports(Webapplication.Models.Employees) on controller Webapplication.Controllers.AdminController (Webapplication).
+2023-12-26 10:45:39.715 +05:30 [INF] Executing ViewResult, running view Reports.
+2023-12-26 10:45:39.765 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[Status] <> N'Approved' OR ([r].[Status] IS NULL)
+2023-12-26 10:45:39.783 +05:30 [INF] Executed ViewResult - view Reports executed in 70.2167ms.
+2023-12-26 10:45:39.786 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Reports (Webapplication) in 120.9373ms
+2023-12-26 10:45:39.787 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2023-12-26 10:45:39.789 +05:30 [INF] HTTP GET /Admin/Reports responded 200 in 141.9105 ms
+2023-12-26 10:45:39.792 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Reports - - - 200 - text/html;+charset=utf-8 147.1785ms
+2023-12-26 10:45:42.270 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Files/Softskills232223882.pdf - -
+2023-12-26 10:45:42.275 +05:30 [INF] HTTP GET /Files/Softskills232223882.pdf responded 404 in 3.0696 ms
+2023-12-26 10:45:42.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Files/Softskills232223882.pdf - - - 404 0 - 10.4972ms
+2023-12-26 10:45:47.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Reports - -
+2023-12-26 10:45:47.722 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2023-12-26 10:45:47.723 +05:30 [INF] Route matched with {action = "Reports", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Reports(Webapplication.Models.Employees) on controller Webapplication.Controllers.AdminController (Webapplication).
+2023-12-26 10:45:47.810 +05:30 [INF] Executing ViewResult, running view Reports.
+2023-12-26 10:45:47.829 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[Status] <> N'Approved' OR ([r].[Status] IS NULL)
+2023-12-26 10:45:47.838 +05:30 [INF] Executed ViewResult - view Reports executed in 27.307ms.
+2023-12-26 10:45:47.840 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Reports (Webapplication) in 114.2591ms
+2023-12-26 10:45:47.841 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2023-12-26 10:45:47.843 +05:30 [INF] HTTP GET /Admin/Reports responded 200 in 121.2950 ms
+2023-12-26 10:45:47.846 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Reports - - - 200 - text/html;+charset=utf-8 126.3409ms
+2023-12-26 10:46:18.335 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Records - -
+2023-12-26 10:46:18.339 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Records (Webapplication)'
+2023-12-26 10:46:18.344 +05:30 [INF] Route matched with {action = "Records", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Records() on controller Webapplication.Controllers.AdminController (Webapplication).
+2023-12-26 10:46:18.368 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+2023-12-26 10:46:18.378 +05:30 [INF] Executing ViewResult, running view Records.
+2023-12-26 10:46:18.430 +05:30 [INF] Executed ViewResult - view Records executed in 53.538ms.
+2023-12-26 10:46:18.432 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Records (Webapplication) in 84.3838ms
+2023-12-26 10:46:18.434 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Records (Webapplication)'
+2023-12-26 10:46:18.436 +05:30 [INF] HTTP GET /Admin/Records responded 200 in 96.7677 ms
+2023-12-26 10:46:18.440 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Records - - - 200 - text/html;+charset=utf-8 104.5205ms

@@ -1,0 +1,24 @@
+@model IEnumerable<Ratings>
+@{
+    Layout="/Views/Shared/_adminLayout.cshtml";
+}
+<table class="table">
+  <caption>Report History</caption>
+  <thead>
+    <tr>
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.EmployeeId)</th>
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.Rating)</th>
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.Feedback)</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+    <tr>
+      <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+      <td>@Html.DisplayFor(modelItem => item.Rating)</td>
+      <td>@Html.DisplayFor(modelItem => item.Feedback)</td>
+    </tr> 
+    }
+  </tbody>
+</table>

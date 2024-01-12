@@ -1,0 +1,44 @@
+@model IEnumerable<Employees>
+@{
+    Layout="/Views/Shared/_adminLayout.cshtml";
+}
+<style>
+    .table-center{
+  margin-left:8%;
+  @* border: 2px solid black; *@
+  width: 50rem;
+}
+th
+{
+  text-align:center;
+}
+</style>
+<h4>@ViewBag.count</h4>
+<table class="table">
+  <caption>Report History</caption>
+  <thead>
+    <tr>
+      @* <th style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.ReimbursementNo)</th> *@
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.EmployeeId)</th>
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.ProjectTitle)</th>
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.TripTo)</th>
+      <th  style="padding-right: 10%;" scope="col">@Html.DisplayNameFor(model => model.TotalCost)</th>
+      <th  style="padding-right: 10%;" scope="col">Submitted On</th>
+      <th style="padding-right: 10%;"  scope="col">@Html.DisplayNameFor(model => model.Status)</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+    <tr>
+      @* <td>@Html.DisplayFor(modelItem => item.ReimbursementNo)</td> *@
+      <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+      <td>@Html.DisplayFor(modelItem => item.ProjectTitle)</td>
+      <td>@Html.DisplayFor(modelItem => item.TripTo)</td>
+      <td>@Html.DisplayFor(modelItem => item.TotalCost)</td>
+      <td>@Html.DisplayFor(modelItem => item.SubmittedDate)</td>
+      <td>@Html.DisplayFor(modelItem => item.Status)</td>
+    </tr> 
+    }
+  </tbody>
+</table>

@@ -1,0 +1,77 @@
+@model Employees 
+@{
+    Layout="/Views/Shared/_userLayout.cshtml";
+}
+<h1> Reimbursement Details </h1>
+    
+
+    <table id="exportTable" class="table table-striped" style="width:50%" border=2 >
+    <thead>
+           <tr>
+            <th>EmployeeID</th>
+            <td>@Model.EmployeeId</td>
+            </tr>
+            <tr>
+            <th>EmployeeName</th>
+            <td>@Model.EmployeeName</td>
+            </tr>
+            <tr>
+            <th>startdate</th>
+            <td>@Model.StartDate</td>
+            </tr>
+            <tr>
+            <th>enddate</th>
+            <td>@Model.EndDate</td>
+            </tr>
+            <tr>
+            <th>Project title</th>
+            <td>@Model.ProjectTitle</td>
+            </tr>
+            <tr>
+            <th>Trip to</th>
+            <td>@Model.TripTo</td>
+            </tr>
+            <th>Description-1</th>
+            <td>@Model.Description1</td>
+            </tr>
+            <tr>
+            <th>Cost-1</th>
+            <td>@Model.Cost1</td>
+            </tr>
+            @if(Model.Description2!="--Choose--")
+            {
+                <tr>
+            <th>@Html.DisplayNameFor(model => model.Description2)</th>
+            <td>@Model.Description2</td>
+                </tr>
+                <tr>
+            <th>@Html.DisplayNameFor(model => model.Cost2)</th>
+            <td>@Model.Cost2</td>
+            </tr>
+            }
+            @if(Model.Description3!="--Choose--")
+            {
+                <tr>
+            <th>@Html.DisplayNameFor(model => model.Description3)</th>
+            <td>@Model.Description3</td>
+                </tr>
+                <tr>
+            <th>@Html.DisplayNameFor(model => model.Cost3)</th>
+            <td>@Model.Cost3</td>
+                </tr>
+            }
+            <tr>
+            <th>TotalCost</th>
+            <td>@Model.TotalCost</td>
+            </tr>
+            <tr>
+            <th>Attachment</th>
+            <td>@Model.Attachment</td>
+            </tr>
+            <tr>
+            <th>Suggesstion</th>
+            <td>@Model.Suggesstion</td>
+            </tr>
+    </thead>
+</table> 
+ <input name="action" type="submit" value="OK" onclick="window.history.back();"/> 

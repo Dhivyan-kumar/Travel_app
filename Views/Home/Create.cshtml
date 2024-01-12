@@ -1,0 +1,31 @@
+@* @model Employee
+@{
+    ViewData["Title"]="Create";
+}
+
+<h1> Employee record Creation</h1>
+<form method="post">
+    <p>
+        <label asp-for="EmployeeID"> Enter your ID </label>
+        <input asp-for="EmployeeID" placeholder="1001"/>
+    </p>
+    <p>
+        <label asp-for="EmployeeName"> Enter your Name</label>
+        <input asp-for="EmployeeName"/>
+    </p>
+    <p>
+        <label asp-for="Expense1"> Expense-1</label>
+        <input asp-for="Expense1"/>
+    </p>
+     <p>
+        <label asp-for="Cost2">Cost</label>
+        <input asp-for="Cost2"/>
+    </p>
+     <p>
+         <label asp-for="Suggesstion">Any other suggesstions</label>
+        <input asp-for="Suggesstion"/>
+    </p>
+    <p>
+        <button type="submit" class="btn btn-info btn-lg">Submit</button>
+    </p>
+   </form>  *@

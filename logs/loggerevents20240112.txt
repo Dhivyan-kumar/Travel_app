@@ -1,0 +1,945 @@
+2024-01-12 09:41:38.454 +05:30 [INF] User profile is available. Using 'C:\Users\dhivyan.kumar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-12 09:41:38.499 +05:30 [INF] Creating key {a4ce4f70-e6c3-4ecb-b059-2d5ef3efa88d} with creation date 2024-01-12 04:11:38Z, activation date 2024-01-12 04:11:38Z, and expiration date 2024-04-11 04:11:38Z.
+2024-01-12 09:41:38.518 +05:30 [INF] Writing data to file 'C:\Users\dhivyan.kumar\AppData\Local\ASP.NET\DataProtection-Keys\key-a4ce4f70-e6c3-4ecb-b059-2d5ef3efa88d.xml'.
+2024-01-12 09:41:38.552 +05:30 [INF] Now listening on: http://localhost:5006
+2024-01-12 09:41:38.554 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-12 09:41:38.555 +05:30 [INF] Hosting environment: Development
+2024-01-12 09:41:38.556 +05:30 [INF] Content root path: C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication
+2024-01-12 09:41:53.284 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2024-01-12 09:41:53.299 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-01-12 09:41:53.368 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-12 09:41:53.418 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:41:53.453 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-12 09:41:54.555 +05:30 [INF] Executed ViewResult - view Index executed in 1108.6094ms.
+2024-01-12 09:41:54.565 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 1142.7989ms
+2024-01-12 09:41:54.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-01-12 09:41:54.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - null null
+2024-01-12 09:41:54.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-01-12 09:41:54.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo1.png - null null
+2024-01-12 09:41:54.568 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-12 09:41:54.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - null null
+2024-01-12 09:41:54.607 +05:30 [INF] Sending file. Request path: '/Webapplication.styles.css'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\obj\Debug\net8.0\scopedcss\bundle\Webapplication.styles.css'
+2024-01-12 09:41:54.612 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\css\site.css'
+2024-01-12 09:41:54.620 +05:30 [INF] Sending file. Request path: '/images/logo1.png'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\images\logo1.png'
+2024-01-12 09:41:54.622 +05:30 [INF] HTTP GET / responded 200 in 1322.1816 ms
+2024-01-12 09:41:54.636 +05:30 [INF] HTTP GET /Webapplication.styles.css responded 200 in 47.3161 ms
+2024-01-12 09:41:54.638 +05:30 [INF] HTTP GET /css/site.css responded 200 in 34.2172 ms
+2024-01-12 09:41:54.641 +05:30 [INF] Sending file. Request path: '/images/travel_reimburssement-.png'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\images\travel_reimburssement-.png'
+2024-01-12 09:41:54.644 +05:30 [INF] HTTP GET /images/logo1.png responded 200 in 33.8094 ms
+2024-01-12 09:41:54.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - 200 1131 text/css 84.8347ms
+2024-01-12 09:41:54.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 200 null text/html; charset=utf-8 1370.3086ms
+2024-01-12 09:41:54.653 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 86.7372ms
+2024-01-12 09:41:54.655 +05:30 [INF] HTTP GET /images/travel_reimburssement-.png responded 200 in 21.7314 ms
+2024-01-12 09:41:54.658 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo1.png - 200 3502 image/png 91.749ms
+2024-01-12 09:41:54.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - null null
+2024-01-12 09:41:54.669 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-01-12 09:41:54.674 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - 200 64311 image/png 80.0915ms
+2024-01-12 09:41:54.684 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-01-12 09:41:54.685 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 112.4745 ms
+2024-01-12 09:41:54.694 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 13.8001 ms
+2024-01-12 09:41:54.696 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 130.6724ms
+2024-01-12 09:41:54.702 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 34.1219ms
+2024-01-12 09:41:56.676 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-01-12 09:41:56.684 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-01-12 09:41:56.687 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 6.7916 ms
+2024-01-12 09:41:56.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - null null
+2024-01-12 09:41:56.875 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 196.1724ms
+2024-01-12 09:41:56.881 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\js\site.js'
+2024-01-12 09:41:56.903 +05:30 [INF] HTTP GET /js/site.js responded 200 in 23.0872 ms
+2024-01-12 09:41:56.905 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - 200 230 text/javascript 69.1316ms
+2024-01-12 09:41:56.932 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/favicon.ico - null null
+2024-01-12 09:41:56.940 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\favicon.ico'
+2024-01-12 09:41:56.951 +05:30 [INF] HTTP GET /favicon.ico responded 200 in 14.6381 ms
+2024-01-12 09:41:56.954 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/favicon.ico - 200 5430 image/x-icon 21.8315ms
+2024-01-12 09:42:24.263 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - null null
+2024-01-12 09:42:24.272 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:42:24.279 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:42:24.289 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2024-01-12 09:42:24.295 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-12 09:42:24.302 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 18.316ms
+2024-01-12 09:42:24.304 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:42:24.306 +05:30 [INF] HTTP GET /Home/Create responded 302 in 37.8032 ms
+2024-01-12 09:42:24.310 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - 302 0 null 46.8425ms
+2024-01-12 09:42:24.351 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:42:24.358 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:42:24.363 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:42:39.574 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2024-01-12 09:42:39.578 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-12 09:42:39.578 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:42:39.583 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-12 09:42:39.588 +05:30 [INF] Executed ViewResult - view Index executed in 7.5061ms.
+2024-01-12 09:42:39.596 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 16.4124ms
+2024-01-12 09:42:39.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-01-12 09:42:39.601 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - null null
+2024-01-12 09:42:39.601 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-01-12 09:42:39.603 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-12 09:42:39.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo1.png - null null
+2024-01-12 09:42:39.614 +05:30 [INF] Sending file. Request path: '/Webapplication.styles.css'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\obj\Debug\net8.0\scopedcss\bundle\Webapplication.styles.css'
+2024-01-12 09:42:39.618 +05:30 [INF] HTTP GET / responded 200 in 40.9255 ms
+2024-01-12 09:42:39.618 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\css\site.css'
+2024-01-12 09:42:39.620 +05:30 [INF] Sending file. Request path: '/images/logo1.png'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\images\logo1.png'
+2024-01-12 09:42:39.620 +05:30 [INF] HTTP GET /Webapplication.styles.css responded 200 in 7.6188 ms
+2024-01-12 09:42:39.621 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 200 null text/html; charset=utf-8 47.6542ms
+2024-01-12 09:42:39.624 +05:30 [INF] HTTP GET /css/site.css responded 200 in 7.3483 ms
+2024-01-12 09:42:39.625 +05:30 [INF] HTTP GET /images/logo1.png responded 200 in 6.0053 ms
+2024-01-12 09:42:39.626 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - 200 1131 text/css 24.8341ms
+2024-01-12 09:42:39.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - null null
+2024-01-12 09:42:39.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 27.4609ms
+2024-01-12 09:42:39.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo1.png - 200 3502 image/png 18.6142ms
+2024-01-12 09:42:39.635 +05:30 [INF] Sending file. Request path: '/images/travel_reimburssement-.png'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\images\travel_reimburssement-.png'
+2024-01-12 09:42:39.639 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - null null
+2024-01-12 09:42:39.643 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-01-12 09:42:39.644 +05:30 [INF] HTTP GET /images/travel_reimburssement-.png responded 200 in 9.7324 ms
+2024-01-12 09:42:39.646 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 36.1694 ms
+2024-01-12 09:42:39.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - null null
+2024-01-12 09:42:39.649 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - 200 64311 image/png 20.7674ms
+2024-01-12 09:42:39.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 54.7189ms
+2024-01-12 09:42:39.654 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\js\site.js'
+2024-01-12 09:42:39.657 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-01-12 09:42:39.666 +05:30 [INF] HTTP GET /js/site.js responded 200 in 11.0934 ms
+2024-01-12 09:42:39.666 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-01-12 09:42:39.671 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-01-12 09:42:39.674 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - 200 230 text/javascript 27.2071ms
+2024-01-12 09:42:39.675 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 29.9723 ms
+2024-01-12 09:42:39.676 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 7.9539 ms
+2024-01-12 09:42:39.680 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 41.1709ms
+2024-01-12 09:42:39.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 46.8225ms
+2024-01-12 09:42:39.721 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/favicon.ico - null null
+2024-01-12 09:42:39.724 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\favicon.ico'
+2024-01-12 09:42:39.729 +05:30 [INF] HTTP GET /favicon.ico responded 200 in 5.5479 ms
+2024-01-12 09:42:39.734 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/favicon.ico - 200 5430 image/x-icon 12.5314ms
+2024-01-12 09:42:41.418 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 17050.965ms
+2024-01-12 09:42:41.420 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:42:41.421 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 17065.6070 ms
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-12 09:42:41.445 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-12 09:42:41.481 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 500 null text/html; charset=utf-8 17128.3587ms
+2024-01-12 09:42:41.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - null null
+2024-01-12 09:42:41.727 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:42:41.728 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:42:41.730 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2024-01-12 09:42:41.731 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-12 09:42:41.734 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 4.5825ms
+2024-01-12 09:42:41.734 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:42:41.735 +05:30 [INF] HTTP GET /Home/Create responded 302 in 8.7927 ms
+2024-01-12 09:42:41.737 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - 302 0 null 12.2823ms
+2024-01-12 09:42:41.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:42:41.743 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:42:41.744 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:42:41.746 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 0.4998ms
+2024-01-12 09:42:41.747 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:42:41.749 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 7.3485 ms
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-12 09:42:41.769 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-12 09:42:41.795 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 500 null text/html; charset=utf-8 53.9217ms
+2024-01-12 09:42:50.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - null null
+2024-01-12 09:42:50.494 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:42:50.502 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:42:50.507 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2024-01-12 09:42:50.509 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-12 09:42:50.511 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 4.9222ms
+2024-01-12 09:42:50.512 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:42:50.517 +05:30 [INF] HTTP GET /Home/Create responded 302 in 23.0072 ms
+2024-01-12 09:42:50.520 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - 302 0 null 45.4657ms
+2024-01-12 09:42:50.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:42:50.538 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:42:50.540 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:42:50.541 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 0.2995ms
+2024-01-12 09:42:50.543 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:42:50.545 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 7.2347 ms
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-12 09:42:50.593 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-12 09:42:50.639 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 500 null text/html; charset=utf-8 104.833ms
+2024-01-12 09:43:01.633 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - null null
+2024-01-12 09:43:01.637 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:43:01.638 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:43:01.643 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2024-01-12 09:43:01.649 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-12 09:43:01.654 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 11.9475ms
+2024-01-12 09:43:01.656 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:43:01.659 +05:30 [INF] HTTP GET /Home/Create responded 302 in 21.7694 ms
+2024-01-12 09:43:01.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - 302 0 null 29.9949ms
+2024-01-12 09:43:01.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:43:01.672 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:43:01.674 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:43:01.678 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 0.4818ms
+2024-01-12 09:43:01.682 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:43:01.684 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 11.4228 ms
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-12 09:43:01.725 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-12 09:43:01.770 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 500 null text/html; charset=utf-8 101.1997ms
+2024-01-12 09:43:54.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - null null
+2024-01-12 09:43:54.657 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:43:54.659 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:43:54.664 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2024-01-12 09:43:54.668 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-12 09:43:54.671 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 8.3782ms
+2024-01-12 09:43:54.674 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:43:54.675 +05:30 [INF] HTTP GET /Home/Create responded 302 in 18.7243 ms
+2024-01-12 09:43:54.678 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - 302 0 null 30.4761ms
+2024-01-12 09:43:54.683 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:43:54.687 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:43:54.689 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:43:54.692 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 0.4696ms
+2024-01-12 09:43:54.694 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:43:54.696 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 9.2132 ms
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-12 09:43:54.725 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-12 09:43:54.754 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 500 null text/html; charset=utf-8 71.1208ms
+2024-01-12 09:43:58.568 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:43:58.574 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:43:58.577 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:43:58.580 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 0.2839ms
+2024-01-12 09:43:58.581 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:43:58.583 +05:30 [ERR] HTTP GET /Login/LoginPage responded 500 in 9.9439 ms
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-12 09:43:58.621 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Webapplication.Models.Validation' threw an exception.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Webapplication.Models.Validation..cctor() in C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\Models\Validation.cs:line 19
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Webapplication.Models.Validation..ctor()
+   at InvokeStub_Validation..ctor(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method21(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-12 09:43:58.667 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 500 null text/html; charset=utf-8 98.7526ms
+2024-01-12 09:46:40.945 +05:30 [INF] Application is shutting down...
+2024-01-12 09:47:01.006 +05:30 [INF] User profile is available. Using 'C:\Users\dhivyan.kumar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-12 09:47:01.072 +05:30 [INF] Now listening on: http://localhost:5006
+2024-01-12 09:47:01.074 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-12 09:47:01.075 +05:30 [INF] Hosting environment: Development
+2024-01-12 09:47:01.075 +05:30 [INF] Content root path: C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication
+2024-01-12 09:47:06.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2024-01-12 09:47:06.295 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-01-12 09:47:06.341 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-12 09:47:06.357 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:47:06.371 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-12 09:47:06.742 +05:30 [INF] Executed ViewResult - view Index executed in 372.1373ms.
+2024-01-12 09:47:06.753 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 394.2054ms
+2024-01-12 09:47:06.754 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-12 09:47:06.757 +05:30 [INF] HTTP GET / responded 200 in 462.7747 ms
+2024-01-12 09:47:06.761 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 200 null text/html; charset=utf-8 656.5224ms
+2024-01-12 09:47:09.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-01-12 09:47:09.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-01-12 09:47:09.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - null null
+2024-01-12 09:47:09.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - null null
+2024-01-12 09:47:09.113 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-01-12 09:47:09.113 +05:30 [INF] The file /css/site.css was not modified
+2024-01-12 09:47:09.115 +05:30 [INF] The file /Webapplication.styles.css was not modified
+2024-01-12 09:47:09.119 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-01-12 09:47:09.126 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 21.0056 ms
+2024-01-12 09:47:09.127 +05:30 [INF] HTTP GET /css/site.css responded 304 in 22.5782 ms
+2024-01-12 09:47:09.127 +05:30 [INF] HTTP GET /Webapplication.styles.css responded 304 in 13.3676 ms
+2024-01-12 09:47:09.129 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 9.5644 ms
+2024-01-12 09:47:09.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 30.0366ms
+2024-01-12 09:47:09.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - 304 null text/css 37.3963ms
+2024-01-12 09:47:09.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 34.7966ms
+2024-01-12 09:47:09.151 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo1.png - null null
+2024-01-12 09:47:09.142 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - null null
+2024-01-12 09:47:09.145 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - null null
+2024-01-12 09:47:09.141 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - 304 null text/javascript 39.5752ms
+2024-01-12 09:47:09.150 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-01-12 09:47:09.153 +05:30 [INF] The file /images/logo1.png was not modified
+2024-01-12 09:47:09.155 +05:30 [INF] The file /js/site.js was not modified
+2024-01-12 09:47:09.156 +05:30 [INF] The file /images/travel_reimburssement-.png was not modified
+2024-01-12 09:47:09.161 +05:30 [INF] HTTP GET /images/logo1.png responded 304 in 7.7176 ms
+2024-01-12 09:47:09.171 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo1.png - 304 null image/png 19.6653ms
+2024-01-12 09:47:09.167 +05:30 [INF] HTTP GET /js/site.js responded 304 in 12.1015 ms
+2024-01-12 09:47:09.163 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-01-12 09:47:09.171 +05:30 [INF] HTTP GET /images/travel_reimburssement-.png responded 304 in 14.8442 ms
+2024-01-12 09:47:09.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - 304 null text/javascript 61.6263ms
+2024-01-12 09:47:09.208 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 47.9465 ms
+2024-01-12 09:47:09.210 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - 304 null image/png 65.385ms
+2024-01-12 09:47:09.244 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 93.5623ms
+2024-01-12 09:47:11.584 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:47:11.590 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:47:11.599 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:47:12.208 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-12 09:47:13.331 +05:30 [INF] Executed ViewResult - view LoginPage executed in 1124.1104ms.
+2024-01-12 09:47:13.356 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 1751.2539ms
+2024-01-12 09:47:13.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-01-12 09:47:13.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/images.jfif - null null
+2024-01-12 09:47:13.358 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:47:13.373 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-01-12 09:47:13.387 +05:30 [INF] Session started; Key:0d7781f9-e4dc-bea3-82ac-306fde1c5ad4, Id:04d50a4b-b653-9887-1f80-e46fec1f608e
+2024-01-12 09:47:13.387 +05:30 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2024-01-12 09:47:13.387 +05:30 [INF] Sending file. Request path: '/images/images.jfif'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\images\images.jfif'
+2024-01-12 09:47:13.393 +05:30 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2024-01-12 09:47:13.403 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 1815.5943 ms
+2024-01-12 09:47:13.409 +05:30 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 200 in 34.9519 ms
+2024-01-12 09:47:13.409 +05:30 [INF] HTTP GET /images/images.jfif responded 200 in 34.0670 ms
+2024-01-12 09:47:13.413 +05:30 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 200 in 23.5701 ms
+2024-01-12 09:47:13.416 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 1831.2515ms
+2024-01-12 09:47:13.418 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery-validation/dist/jquery.validate.min.js - 200 23264 text/javascript 62.1988ms
+2024-01-12 09:47:13.422 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/images.jfif - 200 9055 image/pjpeg 66.0229ms
+2024-01-12 09:47:13.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5831 text/javascript 50.704ms
+2024-01-12 09:47:25.758 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Home/Create - null null
+2024-01-12 09:47:25.772 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:47:25.782 +05:30 [INF] Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-12 09:47:25.789 +05:30 [INF] Login not Found, Sign in to apply for reimbursement
+2024-01-12 09:47:25.796 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-12 09:47:25.802 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Create (Webapplication) in 16.5912ms
+2024-01-12 09:47:25.804 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Create (Webapplication)'
+2024-01-12 09:47:25.805 +05:30 [INF] HTTP GET /Home/Create responded 302 in 37.7834 ms
+2024-01-12 09:47:25.811 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Home/Create - 302 0 null 53.4358ms
+2024-01-12 09:47:25.816 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-12 09:47:25.821 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:47:25.823 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:47:25.831 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-12 09:47:25.837 +05:30 [INF] Executed ViewResult - view LoginPage executed in 6.4637ms.
+2024-01-12 09:47:25.839 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 10.8487ms
+2024-01-12 09:47:25.845 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:47:25.848 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 28.2749 ms
+2024-01-12 09:47:25.850 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 32.8248ms
+2024-01-12 09:48:56.035 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-12 09:48:56.038 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:48:56.046 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:48:56.079 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-12 09:48:56.084 +05:30 [INF] Executed ViewResult - view LoginPage executed in 4.6768ms.
+2024-01-12 09:48:56.085 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 37.2005ms
+2024-01-12 09:48:56.086 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:48:56.089 +05:30 [INF] HTTP POST /Login/LoginPage responded 200 in 51.5156 ms
+2024-01-12 09:48:56.094 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-01-12 09:48:56.096 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-01-12 09:48:56.097 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - null null
+2024-01-12 09:48:56.097 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 62.517ms
+2024-01-12 09:48:56.099 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-01-12 09:48:56.100 +05:30 [INF] The file /css/site.css was not modified
+2024-01-12 09:48:56.102 +05:30 [INF] The file /Webapplication.styles.css was not modified
+2024-01-12 09:48:56.103 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo1.png - null null
+2024-01-12 09:48:56.103 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 4.9228 ms
+2024-01-12 09:48:56.106 +05:30 [INF] HTTP GET /css/site.css responded 304 in 5.4510 ms
+2024-01-12 09:48:56.106 +05:30 [INF] HTTP GET /Webapplication.styles.css responded 304 in 4.8227 ms
+2024-01-12 09:48:56.109 +05:30 [INF] The file /images/logo1.png was not modified
+2024-01-12 09:48:56.114 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 19.3812ms
+2024-01-12 09:48:56.115 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 19.1238ms
+2024-01-12 09:48:56.117 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - 304 null text/css 20.6071ms
+2024-01-12 09:48:56.118 +05:30 [INF] HTTP GET /images/logo1.png responded 304 in 9.2615 ms
+2024-01-12 09:48:56.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/images.jfif - null null
+2024-01-12 09:48:56.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - null null
+2024-01-12 09:48:56.127 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-01-12 09:48:56.129 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo1.png - 304 null image/png 26.1786ms
+2024-01-12 09:48:56.132 +05:30 [INF] The file /images/images.jfif was not modified
+2024-01-12 09:48:56.133 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-01-12 09:48:56.135 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-01-12 09:48:56.137 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - null null
+2024-01-12 09:48:56.139 +05:30 [INF] HTTP GET /images/images.jfif responded 304 in 8.0460 ms
+2024-01-12 09:48:56.141 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 7.9555 ms
+2024-01-12 09:48:56.143 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 7.6413 ms
+2024-01-12 09:48:56.146 +05:30 [INF] The file /js/site.js was not modified
+2024-01-12 09:48:56.146 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/images.jfif - 304 null image/pjpeg 26.573ms
+2024-01-12 09:48:56.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - 304 null text/javascript 23.8358ms
+2024-01-12 09:48:56.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 20.5492ms
+2024-01-12 09:48:56.148 +05:30 [INF] HTTP GET /js/site.js responded 304 in 2.5334 ms
+2024-01-12 09:48:56.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-01-12 09:48:56.154 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-01-12 09:48:56.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - 304 null text/javascript 18.8301ms
+2024-01-12 09:48:56.161 +05:30 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-01-12 09:48:56.165 +05:30 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-01-12 09:48:56.167 +05:30 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 304 in 7.4888 ms
+2024-01-12 09:48:56.168 +05:30 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 304 in 3.2556 ms
+2024-01-12 09:48:56.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 19.2033ms
+2024-01-12 09:48:56.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 16.2419ms
+2024-01-12 09:49:34.461 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-12 09:49:34.468 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:49:34.470 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-12 09:49:34.484 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Start.
+2024-01-12 09:49:34.486 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 12.9161ms
+2024-01-12 09:49:34.488 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-12 09:49:34.490 +05:30 [INF] HTTP POST /Login/LoginPage responded 307 in 22.9533 ms
+2024-01-12 09:49:34.492 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 307 0 null 31.1101ms
+2024-01-12 09:49:34.494 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Start - application/x-www-form-urlencoded 224
+2024-01-12 09:49:34.499 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-12 09:49:34.501 +05:30 [INF] Route matched with {action = "Start", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Start() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-12 09:49:34.568 +05:30 [INF] Executing RedirectResult, redirecting to /Employee.
+2024-01-12 09:49:34.569 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Start (Webapplication) in 66.0472ms
+2024-01-12 09:49:34.570 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-12 09:49:34.571 +05:30 [INF] HTTP POST /Employee/Start responded 302 in 72.4148 ms
+2024-01-12 09:49:34.573 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Start - 302 0 null 78.0806ms
+2024-01-12 09:49:34.574 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee - null null
+2024-01-12 09:49:34.576 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-12 09:49:34.578 +05:30 [INF] Route matched with {action = "Index", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-12 09:49:34.799 +05:30 [WRN] No store type was specified for the decimal property 'Cost1' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-12 09:49:34.801 +05:30 [WRN] No store type was specified for the decimal property 'Cost2' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-12 09:49:34.802 +05:30 [WRN] No store type was specified for the decimal property 'Cost3' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-12 09:49:34.803 +05:30 [WRN] No store type was specified for the decimal property 'TotalCost' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-12 09:49:34.873 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-12 09:49:35.186 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0
+2024-01-12 09:49:35.268 +05:30 [INF] Executed ViewResult - view Index executed in 395.5781ms.
+2024-01-12 09:49:35.270 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Index (Webapplication) in 687.7693ms
+2024-01-12 09:49:35.271 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-12 09:49:35.273 +05:30 [INF] HTTP GET /Employee responded 200 in 697.1051 ms
+2024-01-12 09:49:35.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo2.png - null null
+2024-01-12 09:49:35.287 +05:30 [INF] Sending file. Request path: '/images/logo2.png'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\images\logo2.png'
+2024-01-12 09:49:35.288 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee - 200 null text/html; charset=utf-8 713.527ms
+2024-01-12 09:49:35.289 +05:30 [INF] HTTP GET /images/logo2.png responded 200 in 3.2314 ms
+2024-01-12 09:49:35.292 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo2.png - 200 9436 image/png 9.8303ms
+2024-01-12 09:49:39.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - null null
+2024-01-12 09:49:39.407 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-12 09:49:39.412 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-12 09:49:39.437 +05:30 [INF] Executing ViewResult, running view Create.
+2024-01-12 09:49:39.484 +05:30 [INF] Executed ViewResult - view Create executed in 47.5614ms.
+2024-01-12 09:49:39.485 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 67.9737ms
+2024-01-12 09:49:39.487 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-12 09:49:39.489 +05:30 [INF] HTTP GET /Employee/Create responded 200 in 85.9453 ms
+2024-01-12 09:49:39.491 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - 200 null text/html; charset=utf-8 95.5018ms
+2024-01-12 09:52:04.224 +05:30 [INF] Application is shutting down...

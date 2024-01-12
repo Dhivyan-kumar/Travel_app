@@ -1,0 +1,293 @@
+@model Employees
+@{
+    Layout="/Views/Shared/_userLayout.cshtml";
+}
+
+<style>
+    .currency-wrap{
+		position:relative;
+	}
+	
+	.currency-code{
+		position:absolute;
+		left:8px;
+		top:10px;
+	}
+	
+	.text-currency{
+		padding:10px 20px;
+		border:solid 1px #ccc;
+		border-radius:5px;
+	}
+    
+</style>
+
+<body>
+<form method="post" enctype="multipart/form-data">
+<div class="wrapper rounded bg-white">
+        <div class="p-3 mb-2 bg-secondary text-white" style="text-align:center;"><strong>Reimbursement Form</strong></div>
+        <div class="form">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <label asp-for="EmployeeId">Employee ID</label>
+                    <input asp-for="EmployeeId" type="text" class="form-control" value='@ViewBag.Message' required/>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <label asp-for="EmployeeName">Employee Name</label>
+                    <input type="text" asp-for="EmployeeName"  class="form-control" value='@ViewBag.name' required/>
+                    @* <p style=color:red;text-align:center;>@ViewBag.Creates</p>
+                    <span asp-validation-for="EmployeeName" class="text-danger"></span> *@
+                    
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <label  asp-for="StartDate">Travel Start Date</label>
+                    <input asp-for="StartDate" type="date" id="startdate" class="form-control" required/>
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                    
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <label asp-for="EndDate">Travel End Date</label>
+                    <input type="date" asp-for="EndDate" id="enddate" class="form-control" required/>
+                    <span asp-validation-for="EndDate" class="text-danger"></span>
+                    
+                </div>
+            </div>
+            <br>
+             <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <label  asp-for="ProjectTitle">Project Title</label>
+                    <input asp-for="ProjectTitle" type="text" class="form-control" required/>
+                    <span asp-validation-for="ProjectTitle" class="text-danger"></span>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <label asp-for="TripTo">Trip to</label>
+                    <select  asp-for="TripTo" class="form-control">
+                        <option value="" disabled selected hidden>--Choose--</option>
+                        <option>Australia</option>
+                        <option>Singapore</option>
+                        <option>Mexico</option>
+                        <option>UAE</option>
+                        <option>USA</option>
+                        <option>Malaysia</option>
+                    </select>
+                    <span asp-validation-for="TripTo" class="text-danger"></span>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <div class="form-group">
+                    <label asp-for="Description1">Expense-1</label>
+                    <select asp-for="Description1" class="form-control" id="t1" onchange="removeSelectedValue(this);">
+                        <option value="" disabled selected hidden>--Choose--</option>
+                        <option>Accomodation</option>
+                        <option>Food</option>
+                        <option>Travel Tickets</option>
+                    </select>
+                    <span asp-validation-for="Description1" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3" style="padding-top: 20px;">
+                    <div class="currency-wrap">
+                        <span class="currency-code">₹</span> 
+                    <input asp-for="Cost1" id="txt1" type="number" placeholder="Cost 1" class="text-currency" class="form-control" onkeyup="sum();" required/>
+                    <span asp-validation-for="Cost1" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <div class="form-group">
+                    <label asp-for="Description2">Expense-2</label>
+                    <select asp-for="Description2" class="form-control" id="t2" onchange="removeSelectedValue(this);">
+                        <option value="" disabled selected hidden>--Choose--</option>
+                        <option>Accomodation</option>
+                        <option>Food</option>
+                        <option>Travel Tickets</option>
+                    </select>
+                    <span asp-validation-for="Description2" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3" style="padding-top:20px;">
+                    <div class="currency-wrap">
+                        <span class="currency-code">₹</span> 
+                    <input asp-for="Cost2" id="txt2" type="number" placeholder="Cost 2" class="text-currency" class="form-control" onkeyup="sum();" />
+                    <span asp-validation-for="Cost2" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <div class="form-group">
+                    <label asp-for="Description3">Expense-3</label>
+                    <select asp-for="Description3" class="form-control" id="t3" onchange="removeSelectedValue(this);">
+                        <option value="" disabled selected hidden>--Choose--</option>
+                        <option>Accomodation</option>
+                        <option>Food</option>
+                        <option>Travel Tickets</option>
+                    </select>
+                    <span asp-validation-for="Description3" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3" style="padding-top: 20px;">
+                    <div class="currency-wrap">
+                        <span class="currency-code">₹</span> 
+                        <input asp-for="Cost3" id="txt3" type="number" placeholder="Cost 3" class="text-currency" class="form-control" onkeyup="sum();" />
+                        <span asp-validation-for="Cost3" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                   <div class="currency-wrap">
+                        <span class="currency-code">₹</span> 
+                        <input type="number" id="txt4" class="text-currency" asp-for="TotalCost" placeholder="Total Cost" required/>
+                       
+                    </div>
+                </div>
+               <div class="form-group col-md-6 mt-md-0 mt-3" style="padding-top: 10px;">
+                    <label asp-for="File">Attach file</label>
+                    <input asp-for="File" type="file" id="filename" onchange="Checkfiles()" required/>
+                    <span asp-validation-for="File" class="text-danger"></span>
+                    
+                </div>
+            </div>
+            <br>
+            <div class=" my-md-2 my-3">
+                <label asp-for="Suggesstion">Any other suggesstions</label>
+                <input type="text" asp-for="Suggesstion" class="col-xs-3 form-control" placeholder="type something " required/>
+                <span asp-validation-for="Suggesstion" class="text-danger"></span>
+                
+            </div >
+            @* <a asp-controller="Employee" asp-action="ViewDetails" class="btn btn-info btn-lg">Preview</a> *@
+            @Html.AntiForgeryToken()
+            <button class="btn btn-primary mt-3" type="submit" style="margin-left:45%">Submit</button>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</form>
+</body>
+    @section Scripts
+  {
+      <partial name="_ValidationScriptsPartial"/>
+  }
+<script >
+function sum() {
+            var txtFirstNumberValue = document.getElementById('txt1').value;
+            var txtSecondNumberValue = document.getElementById('txt2').value;
+            var txtthirdNumberValue = document.getElementById('txt3').value;
+            if(txtthirdNumberValue == 0 && txtSecondNumberValue == 0)
+            {
+             var result=parseInt(txtFirstNumberValue);
+            }
+            else if(txtthirdNumberValue == 0)
+            {
+                var result=parseInt(txtFirstNumberValue) + parseInt(txtSecondNumberValue);
+            }
+            else{
+                var result=parseInt(txtFirstNumberValue) + parseInt(txtSecondNumberValue)+parseInt(txtthirdNumberValue);
+            }
+            if (!isNaN(result)) {
+                document.getElementById('txt4').value = result;
+            }
+        }
+function removeSelectedValue(selectedDropdown) {
+  var selectedValue = selectedDropdown.value;
+
+ 
+  var dropdowns = document.getElementsByTagName("select");
+  for (var i = 0; i < dropdowns.length; i++) {
+    
+    if (dropdowns[i] !== selectedDropdown) {
+     
+      var options = dropdowns[i].getElementsByTagName("option");
+      for (var j = 0; j < options.length; j++) {
+        
+        if (options[j].value === selectedValue) {
+          options[j].remove();
+        }
+      }
+    }
+  }
+}
+$("#enddate").change(function () {
+    var startDate = document.getElementById("startdate").value;
+    var endDate = document.getElementById("enddate").value;
+
+    if ((Date.parse(startDate) >= Date.parse(endDate))) {
+        alert("End date should be greater than or equal to Start date");
+        document.getElementById("enddate").value = "";
+    }
+});
+$(function(){
+    var dtToday = new Date();
+
+    var month = dtToday.getMonth() + 1;
+    var day = dtToday.getDate();
+    var year = dtToday.getFullYear();
+    if(month < 10)
+        month = '0' + month.toString();
+    if(day < 10)
+        day = '0' + day.toString();
+
+    var maxDate= year + '-' + month + '-' + day;
+
+    $('#startdate').attr('max', maxDate);
+});
+$(function(){
+    var dtToday = new Date();
+
+    var month = dtToday.getMonth() + 1;
+    var day = dtToday.getDate();
+    var year = dtToday.getFullYear();
+    if(month < 10)
+        month = '0' + month.toString();
+    if(day < 10)
+        day = '0' + day.toString();
+
+    var maxDate= year + '-' + month + '-' + day;
+
+    $('#enddate').attr('max', maxDate);
+});
+function Checkfiles()
+        {
+        var fup = document.getElementById('filename');
+        var fileName = fup.value;
+        var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
+        if(ext == "pdf" )
+        {
+        return true;
+        } 
+        else
+        {
+        alert("Upload pdf files only");
+        fup.focus();
+        return false;
+        }
+        }
+
+        </script>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,142 @@
+@model IEnumerable<Employees>
+@{
+    Layout="/Views/Shared/_userLayout.cshtml";
+}
+<!DOCTYPE html>
+ <html>
+<body  background style="background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );">
+  
+<style type="text/css">
+img {
+  width: 1000px;
+  height: 500px;
+}
+.table-center{
+  margin-left:8%;
+  @* border: 2px solid black; *@
+  width: 50rem;
+}
+th
+{
+  text-align:center;
+}
+.about {<!--from   ww w.j av  a2s . com-->
+   padding: 2em;
+}
+.container {
+   margin: 0 auto;
+   width: 60%;
+   text-align: center;
+}
+.about:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 6em;
+    max-width:70%;
+    border-bottom: 0.3em solid red;
+    margin: 2em auto 0;
+
+    margin-left: -250px;
+}
+.Header{
+  margin-right: 500px;
+  
+  margin-left: -250px;
+  
+
+}
+.Header1{
+  margin-right:460px;
+  margin-left:-260px;
+}
+.privacy{
+  color: black;
+  text-decoration: none;
+}
+.contact{
+  color: black;
+  text-decoration: none;
+}
+#clock-display{
+  position: absolute;
+  top: 76px;
+  right: 25px;
+  max-width: 600px;
+  color:#020024;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
+@* #clock-display {
+    font-size: 2rem;
+    text-align: center;
+} *@
+</style>
+<div class="text-center">
+</div>
+<div>
+  <section class="about">
+    <br>
+    <div>
+    <h2  class="Header" style="text-align: left;"><strong>CONNECT AND TAKE CONTROL OF SPENDING</strong></h2>
+    <h1 id="clock-display">00:00:00</h1>
+    </div>
+    </section>
+</div>
+<br>
+<h6 class="Header1">Automate your travel reimbursement system to save time, eliminate manual data entry, and
+reduce processing costs with a expense reimbursement software.</h6>
+<p>@TempData["Time"]</p>
+<br>
+<table class="table">
+  <caption>Reports Submitted</caption>
+  <thead>
+    <tr>
+      @* <th scope="col">@Html.DisplayNameFor(model => model.ReimbursementNo)</th> *@
+      <th scope="col">@Html.DisplayNameFor(model => model.EmployeeId)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.ProjectTitle)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.TripTo)</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.TotalCost)</th>
+      <th scope="col">Submitted On</th>
+      <th scope="col">@Html.DisplayNameFor(model => model.Status)</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+    <tr>
+      @* <td>@Html.DisplayFor(modelItem => item.ReimbursementNo)</td> *@
+      <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+      <td>@Html.DisplayFor(modelItem => item.ProjectTitle)</td>
+      <td>@Html.DisplayFor(modelItem => item.TripTo)</td>
+      <td>@Html.DisplayFor(modelItem => item.TotalCost)</td>
+      <td>@Html.DisplayFor(modelItem => item.SubmittedDate)</td>
+      <td>@Html.DisplayFor(modelItem => item.Status)</td>
+    </tr> 
+    }
+  </tbody>
+</table>
+</body>
+<script>
+  function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    document.getElementById('clock-display').textContent = timeString;
+}
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+
+// Initial update
+updateClock();
+
+</script>
+<footer style="position:relative; margin-top:15rem;">
+<a class="privacy" asp-action="Privacy" asp-controller="Employee">Privacy</a>
+<a>|</a>
+<a class="contact" asp-action="Contact" asp-controller="Employee">Contact us</a>
+</footer>
+</html>  
