@@ -79,7 +79,7 @@ namespace Webapplication.Controllers
                 HttpContext.Session.SetString("Session",account.EmployeeId);
                 Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
                 Trace.AutoFlush=true;
-                Trace.WriteLine("Logged in successfully");
+                Trace.TraceInformation("Logged in successfully");
                 var cookieOptions = new CookieOptions();
                 cookieOptions.Expires = DateTime.Now.AddDays(1);
                 Response.Cookies.Append("LastLoginTime",DateTime.Now.ToString(),cookieOptions);

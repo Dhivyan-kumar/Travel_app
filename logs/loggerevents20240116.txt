@@ -1,0 +1,47 @@
+2024-01-16 19:25:03.846 +05:30 [INF] User profile is available. Using 'C:\Users\dhivyan.kumar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-16 19:25:03.939 +05:30 [INF] Now listening on: http://localhost:5006
+2024-01-16 19:25:03.941 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-16 19:25:03.942 +05:30 [INF] Hosting environment: Development
+2024-01-16 19:25:03.942 +05:30 [INF] Content root path: C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication
+2024-01-16 19:25:07.127 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2024-01-16 19:25:07.191 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-01-16 19:25:07.250 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-16 19:25:07.294 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-16 19:25:07.332 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-16 19:25:07.498 +05:30 [INF] Executed ViewResult - view Index executed in 171.479ms.
+2024-01-16 19:25:07.503 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 203.8294ms
+2024-01-16 19:25:07.505 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-16 19:25:07.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-01-16 19:25:07.511 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-01-16 19:25:07.513 +05:30 [INF] HTTP GET / responded 200 in 323.0140 ms
+2024-01-16 19:25:07.516 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-01-16 19:25:07.516 +05:30 [INF] The file /css/site.css was not modified
+2024-01-16 19:25:07.520 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 200 null text/html; charset=utf-8 397.9834ms
+2024-01-16 19:25:07.523 +05:30 [INF] HTTP GET /css/site.css responded 304 in 9.2871 ms
+2024-01-16 19:25:07.523 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 10.5028 ms
+2024-01-16 19:25:07.530 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 18.5551ms
+2024-01-16 19:25:07.533 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 25.7054ms
+2024-01-16 19:25:07.768 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - null null
+2024-01-16 19:25:07.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo1.png - null null
+2024-01-16 19:25:07.784 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - null null
+2024-01-16 19:25:07.864 +05:30 [INF] The file /Webapplication.styles.css was not modified
+2024-01-16 19:25:07.878 +05:30 [INF] The file /images/logo1.png was not modified
+2024-01-16 19:25:07.891 +05:30 [INF] The file /images/travel_reimburssement-.png was not modified
+2024-01-16 19:25:07.899 +05:30 [INF] HTTP GET /Webapplication.styles.css responded 304 in 34.8840 ms
+2024-01-16 19:25:07.899 +05:30 [INF] HTTP GET /images/logo1.png responded 304 in 26.8926 ms
+2024-01-16 19:25:07.906 +05:30 [INF] HTTP GET /images/travel_reimburssement-.png responded 304 in 15.9504 ms
+2024-01-16 19:25:07.908 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - 304 null text/css 139.5839ms
+2024-01-16 19:25:07.914 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo1.png - 304 null image/png 144.4437ms
+2024-01-16 19:25:07.917 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - 304 null image/png 132.9138ms
+2024-01-16 19:25:07.965 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - null null
+2024-01-16 19:25:07.969 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-01-16 19:25:07.973 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 4.8340 ms
+2024-01-16 19:25:07.977 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - 304 null text/javascript 11.1304ms
+2024-01-16 19:25:07.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-01-16 19:25:07.985 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - null null
+2024-01-16 19:25:07.990 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-01-16 19:25:07.992 +05:30 [INF] The file /js/site.js was not modified
+2024-01-16 19:25:07.993 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 4.1137 ms
+2024-01-16 19:25:07.997 +05:30 [INF] HTTP GET /js/site.js responded 304 in 5.3949 ms
+2024-01-16 19:25:07.999 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 21.3416ms
+2024-01-16 19:25:08.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - 304 null text/javascript 15.7949ms

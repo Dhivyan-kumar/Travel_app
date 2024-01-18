@@ -50,7 +50,7 @@ public class HomeController : Controller
         catch(LoginNotFoundException loginnotfoundexception)
         {
         TempData["Message"]= loginnotfoundexception.Message;
-        Log.Information(loginnotfoundexception.Message);
+        Log.Warning(loginnotfoundexception.Message);
         return RedirectToAction("LoginPage","Login");
         }
     }

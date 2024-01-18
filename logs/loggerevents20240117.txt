@@ -1,0 +1,610 @@
+2024-01-17 11:21:30.729 +05:30 [INF] User profile is available. Using 'C:\Users\dhivyan.kumar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 11:21:30.806 +05:30 [INF] Now listening on: http://localhost:5006
+2024-01-17 11:21:30.808 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 11:21:30.809 +05:30 [INF] Hosting environment: Development
+2024-01-17 11:21:30.810 +05:30 [INF] Content root path: C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication
+2024-01-17 11:21:33.627 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2024-01-17 11:21:33.635 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-01-17 11:21:33.679 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-17 11:21:33.860 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-17 11:21:33.882 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-17 11:21:33.961 +05:30 [INF] Executed ViewResult - view Index executed in 79.3639ms.
+2024-01-17 11:21:33.973 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 110.4303ms
+2024-01-17 11:21:33.974 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-17 11:21:33.981 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-01-17 11:21:33.981 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-01-17 11:21:33.981 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo1.png - null null
+2024-01-17 11:21:33.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - null null
+2024-01-17 11:21:33.995 +05:30 [INF] HTTP GET / responded 200 in 360.4113 ms
+2024-01-17 11:21:33.997 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-01-17 11:21:33.997 +05:30 [INF] The file /css/site.css was not modified
+2024-01-17 11:21:33.998 +05:30 [INF] The file /images/logo1.png was not modified
+2024-01-17 11:21:33.999 +05:30 [INF] The file /Webapplication.styles.css was not modified
+2024-01-17 11:21:34.004 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 10.5618 ms
+2024-01-17 11:21:34.006 +05:30 [INF] HTTP GET /css/site.css responded 304 in 9.8327 ms
+2024-01-17 11:21:34.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 200 null text/html; charset=utf-8 379.8256ms
+2024-01-17 11:21:34.007 +05:30 [INF] HTTP GET /images/logo1.png responded 304 in 9.5228 ms
+2024-01-17 11:21:34.007 +05:30 [INF] HTTP GET /Webapplication.styles.css responded 304 in 8.6108 ms
+2024-01-17 11:21:34.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 29.3441ms
+2024-01-17 11:21:34.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 31.6376ms
+2024-01-17 11:21:34.014 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - null null
+2024-01-17 11:21:34.015 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo1.png - 304 null image/png 32.9768ms
+2024-01-17 11:21:34.015 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Webapplication.styles.css?v=XeGCGsQ51O-tAah_kPy0hEK4Dj4fczpr4EKo7donQlo - 304 null text/css 33.677ms
+2024-01-17 11:21:34.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - null null
+2024-01-17 11:21:34.031 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - null null
+2024-01-17 11:21:34.049 +05:30 [INF] The file /images/travel_reimburssement-.png was not modified
+2024-01-17 11:21:34.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-01-17 11:21:34.065 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-01-17 11:21:34.074 +05:30 [INF] The file /js/site.js was not modified
+2024-01-17 11:21:34.087 +05:30 [INF] HTTP GET /images/travel_reimburssement-.png responded 304 in 39.2060 ms
+2024-01-17 11:21:34.092 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 27.5571 ms
+2024-01-17 11:21:34.093 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-01-17 11:21:34.096 +05:30 [INF] HTTP GET /js/site.js responded 304 in 22.1162 ms
+2024-01-17 11:21:34.096 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/travel_reimburssement-.png - 304 null image/png 82.0198ms
+2024-01-17 11:21:34.098 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery/dist/jquery.min.js - 304 null text/javascript 77.2522ms
+2024-01-17 11:21:34.099 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 7.3868 ms
+2024-01-17 11:21:34.142 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - 304 null text/javascript 110.9257ms
+2024-01-17 11:21:34.146 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 88.0479ms
+2024-01-17 11:21:38.488 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-17 11:21:38.510 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:21:38.512 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 11:21:39.355 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-17 11:21:39.443 +05:30 [INF] Executed ViewResult - view LoginPage executed in 89.1193ms.
+2024-01-17 11:21:39.445 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 930.4538ms
+2024-01-17 11:21:39.445 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:21:39.451 +05:30 [INF] Session started; Key:266bdebb-b21e-e20e-7307-59cd1034e423, Id:d437ad1a-a398-7feb-b921-af4b42a1fa55
+2024-01-17 11:21:39.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/images.jfif - null null
+2024-01-17 11:21:39.454 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-01-17 11:21:39.456 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 957.8201 ms
+2024-01-17 11:21:39.462 +05:30 [INF] The file /images/images.jfif was not modified
+2024-01-17 11:21:39.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-01-17 11:21:39.477 +05:30 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-01-17 11:21:39.478 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 990.2153ms
+2024-01-17 11:21:39.480 +05:30 [INF] HTTP GET /images/images.jfif responded 304 in 19.3588 ms
+2024-01-17 11:21:39.487 +05:30 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-01-17 11:21:39.487 +05:30 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 304 in 10.6991 ms
+2024-01-17 11:21:39.491 +05:30 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 304 in 5.7870 ms
+2024-01-17 11:21:39.492 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/images.jfif - 304 null image/pjpeg 38.0679ms
+2024-01-17 11:21:39.498 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 43.9476ms
+2024-01-17 11:21:39.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 46.3287ms
+2024-01-17 11:21:49.609 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-17 11:21:49.614 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:21:49.629 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 11:21:49.745 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Start.
+2024-01-17 11:21:49.749 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 112.1421ms
+2024-01-17 11:21:49.750 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:21:49.751 +05:30 [INF] HTTP POST /Login/LoginPage responded 307 in 140.0701 ms
+2024-01-17 11:21:49.752 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 307 0 null 142.5143ms
+2024-01-17 11:21:49.755 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Start - application/x-www-form-urlencoded 224
+2024-01-17 11:21:49.756 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 11:21:49.758 +05:30 [INF] Route matched with {action = "Start", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Start() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:21:49.867 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Create.
+2024-01-17 11:21:49.868 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Start (Webapplication) in 108.8133ms
+2024-01-17 11:21:49.869 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 11:21:49.869 +05:30 [INF] HTTP POST /Employee/Start responded 302 in 113.3113 ms
+2024-01-17 11:21:49.871 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Start - 302 0 null 116.4492ms
+2024-01-17 11:21:49.873 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - null null
+2024-01-17 11:21:49.876 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 11:21:49.878 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:21:49.901 +05:30 [INF] Executing ViewResult, running view Create.
+2024-01-17 11:21:49.985 +05:30 [INF] Executed ViewResult - view Create executed in 85.5087ms.
+2024-01-17 11:21:49.987 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 106.9545ms
+2024-01-17 11:21:49.987 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 11:21:49.988 +05:30 [INF] HTTP GET /Employee/Create responded 200 in 113.7847 ms
+2024-01-17 11:21:49.991 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - 200 null text/html; charset=utf-8 117.7174ms
+2024-01-17 11:21:49.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/logo2.png - null null
+2024-01-17 11:21:50.003 +05:30 [INF] The file /images/logo2.png was not modified
+2024-01-17 11:21:50.005 +05:30 [INF] HTTP GET /images/logo2.png responded 304 in 2.1019 ms
+2024-01-17 11:21:50.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/logo2.png - 304 null image/png 7.5704ms
+2024-01-17 11:21:53.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee - null null
+2024-01-17 11:21:53.317 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-17 11:21:53.321 +05:30 [INF] Route matched with {action = "Index", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:21:53.613 +05:30 [WRN] No store type was specified for the decimal property 'Cost1' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:21:53.616 +05:30 [WRN] No store type was specified for the decimal property 'Cost2' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:21:53.618 +05:30 [WRN] No store type was specified for the decimal property 'Cost3' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:21:53.621 +05:30 [WRN] No store type was specified for the decimal property 'TotalCost' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:21:53.711 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-17 11:21:54.193 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0
+2024-01-17 11:21:54.301 +05:30 [INF] Executed ViewResult - view Index executed in 590.9847ms.
+2024-01-17 11:21:54.303 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Index (Webapplication) in 979.3326ms
+2024-01-17 11:21:54.304 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-17 11:21:54.304 +05:30 [INF] HTTP GET /Employee responded 200 in 987.4338 ms
+2024-01-17 11:21:54.318 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee - 200 null text/html; charset=utf-8 1002.4663ms
+2024-01-17 11:22:11.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - null null
+2024-01-17 11:22:11.032 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 11:22:11.034 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:11.044 +05:30 [INF] Executing ViewResult, running view Create.
+2024-01-17 11:22:11.053 +05:30 [INF] Executed ViewResult - view Create executed in 9.6553ms.
+2024-01-17 11:22:11.054 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 17.5442ms
+2024-01-17 11:22:11.055 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 11:22:11.056 +05:30 [INF] HTTP GET /Employee/Create responded 200 in 24.0529 ms
+2024-01-17 11:22:11.057 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - 200 null text/html; charset=utf-8 27.7488ms
+2024-01-17 11:22:14.632 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:22:14.635 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:22:14.638 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:14.645 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:22:14.658 +05:30 [INF] Executed ViewResult - view Status executed in 13.9795ms.
+2024-01-17 11:22:14.662 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 19.4104ms
+2024-01-17 11:22:14.666 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:22:14.668 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 33.3461 ms
+2024-01-17 11:22:14.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 37.3183ms
+2024-01-17 11:22:20.877 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee - null null
+2024-01-17 11:22:20.880 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-17 11:22:20.881 +05:30 [INF] Route matched with {action = "Index", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:20.919 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-17 11:22:20.928 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0
+2024-01-17 11:22:20.937 +05:30 [INF] Executed ViewResult - view Index executed in 17.393ms.
+2024-01-17 11:22:20.938 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Index (Webapplication) in 55.0988ms
+2024-01-17 11:22:20.944 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-17 11:22:20.945 +05:30 [INF] HTTP GET /Employee responded 200 in 65.2010 ms
+2024-01-17 11:22:20.950 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee - 200 null text/html; charset=utf-8 72.6165ms
+2024-01-17 11:22:22.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:22:22.542 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:22:22.544 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:22.548 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:22:22.549 +05:30 [INF] Executed ViewResult - view Status executed in 1.3878ms.
+2024-01-17 11:22:22.551 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 4.6982ms
+2024-01-17 11:22:22.552 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:22:22.554 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 11.5564 ms
+2024-01-17 11:22:22.556 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 18.5718ms
+2024-01-17 11:22:24.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Profile - null null
+2024-01-17 11:22:24.696 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Profile (Webapplication)'
+2024-01-17 11:22:24.698 +05:30 [INF] Route matched with {action = "Profile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Profile() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:24.715 +05:30 [INF] Executing ViewResult, running view Profile.
+2024-01-17 11:22:24.719 +05:30 [INF] Executed ViewResult - view Profile executed in 3.6331ms.
+2024-01-17 11:22:24.720 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Profile (Webapplication) in 16.055ms
+2024-01-17 11:22:24.721 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Profile (Webapplication)'
+2024-01-17 11:22:24.723 +05:30 [INF] HTTP GET /Employee/Profile responded 200 in 27.9219 ms
+2024-01-17 11:22:24.726 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Profile - 200 null text/html; charset=utf-8 32.8848ms
+2024-01-17 11:22:24.735 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/images/user-regular.svg - null null
+2024-01-17 11:22:24.743 +05:30 [INF] The file /images/user-regular.svg was not modified
+2024-01-17 11:22:24.753 +05:30 [INF] HTTP GET /images/user-regular.svg responded 304 in 10.0717 ms
+2024-01-17 11:22:24.758 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/images/user-regular.svg - 304 null image/svg+xml 23.2939ms
+2024-01-17 11:22:28.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/PutRemarks - null null
+2024-01-17 11:22:28.064 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.PutRemarks (Webapplication)'
+2024-01-17 11:22:28.066 +05:30 [INF] Route matched with {action = "PutRemarks", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PutRemarks() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:28.080 +05:30 [INF] Executing ViewResult, running view PutRemarks.
+2024-01-17 11:22:28.099 +05:30 [INF] Executed ViewResult - view PutRemarks executed in 19.0453ms.
+2024-01-17 11:22:28.101 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.PutRemarks (Webapplication) in 33.5292ms
+2024-01-17 11:22:28.103 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.PutRemarks (Webapplication)'
+2024-01-17 11:22:28.109 +05:30 [INF] HTTP GET /Employee/PutRemarks responded 200 in 45.5879 ms
+2024-01-17 11:22:28.112 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/PutRemarks - 200 null text/html; charset=utf-8 51.4394ms
+2024-01-17 11:22:30.304 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:22:30.308 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:22:30.309 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:22:30.312 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:22:30.314 +05:30 [INF] Executed ViewResult - view Status executed in 1.5949ms.
+2024-01-17 11:22:30.322 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 10.5679ms
+2024-01-17 11:22:30.327 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:22:30.328 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 20.8840 ms
+2024-01-17 11:22:30.330 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 25.8795ms
+2024-01-17 11:27:52.733 +05:30 [INF] Application is shutting down...
+2024-01-17 11:28:06.942 +05:30 [INF] User profile is available. Using 'C:\Users\dhivyan.kumar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 11:28:07.024 +05:30 [INF] Now listening on: http://localhost:5006
+2024-01-17 11:28:07.027 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-17 11:28:07.028 +05:30 [INF] Hosting environment: Development
+2024-01-17 11:28:07.028 +05:30 [INF] Content root path: C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication
+2024-01-17 11:28:07.299 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/ - null null
+2024-01-17 11:28:07.310 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-01-17 11:28:07.367 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-17 11:28:07.395 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.HomeController (Webapplication).
+2024-01-17 11:28:07.408 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-17 11:28:07.498 +05:30 [INF] Executed ViewResult - view Index executed in 94.7155ms.
+2024-01-17 11:28:07.509 +05:30 [INF] Executed action Webapplication.Controllers.HomeController.Index (Webapplication) in 108.3144ms
+2024-01-17 11:28:07.511 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.HomeController.Index (Webapplication)'
+2024-01-17 11:28:07.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:07.533 +05:30 [INF] HTTP GET / responded 200 in 223.9679 ms
+2024-01-17 11:28:07.535 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/ - 200 null text/html; charset=utf-8 237.412ms
+2024-01-17 11:28:07.534 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 2.3565ms
+2024-01-17 11:28:12.236 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-17 11:28:12.241 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:28:12.244 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 11:28:12.365 +05:30 [INF] Accessing expired session, Key:266bdebb-b21e-e20e-7307-59cd1034e423
+2024-01-17 11:28:12.366 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-17 11:28:12.434 +05:30 [INF] Executed ViewResult - view LoginPage executed in 68.6426ms.
+2024-01-17 11:28:12.435 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 190.5008ms
+2024-01-17 11:28:12.435 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:28:12.458 +05:30 [INF] Session started; Key:266bdebb-b21e-e20e-7307-59cd1034e423, Id:531d80eb-8393-c975-d09e-92ec97ab93ff
+2024-01-17 11:28:12.461 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 224.5507 ms
+2024-01-17 11:28:12.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 226.6152ms
+2024-01-17 11:28:12.482 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:12.483 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.2269ms
+2024-01-17 11:28:20.505 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-17 11:28:20.509 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:28:20.517 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 11:28:20.559 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Start.
+2024-01-17 11:28:20.560 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 43.0549ms
+2024-01-17 11:28:20.560 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:28:20.561 +05:30 [INF] HTTP POST /Login/LoginPage responded 307 in 55.2202 ms
+2024-01-17 11:28:20.561 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 307 0 null 55.9419ms
+2024-01-17 11:28:20.563 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Start - application/x-www-form-urlencoded 224
+2024-01-17 11:28:20.564 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 11:28:20.566 +05:30 [INF] Route matched with {action = "Start", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Start() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:20.658 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Status.
+2024-01-17 11:28:20.658 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Start (Webapplication) in 92.597ms
+2024-01-17 11:28:20.658 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 11:28:20.659 +05:30 [INF] HTTP POST /Employee/Start responded 302 in 95.1312 ms
+2024-01-17 11:28:20.660 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Start - 302 0 null 96.8536ms
+2024-01-17 11:28:20.662 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:20.663 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:20.665 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:20.680 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:20.711 +05:30 [INF] Executed ViewResult - view Status executed in 31.567ms.
+2024-01-17 11:28:20.712 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 46.3186ms
+2024-01-17 11:28:20.712 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:20.712 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 50.4622 ms
+2024-01-17 11:28:20.712 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 50.9109ms
+2024-01-17 11:28:20.724 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:20.726 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.9519ms
+2024-01-17 11:28:27.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:27.355 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:27.356 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:27.361 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:27.375 +05:30 [INF] Executed ViewResult - view Status executed in 15.4702ms.
+2024-01-17 11:28:27.375 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 18.6308ms
+2024-01-17 11:28:27.376 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:27.376 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 21.5232 ms
+2024-01-17 11:28:27.376 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 21.9825ms
+2024-01-17 11:28:27.381 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:27.382 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2769ms
+2024-01-17 11:28:27.407 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/favicon.ico - null null
+2024-01-17 11:28:27.414 +05:30 [INF] The file /favicon.ico was not modified
+2024-01-17 11:28:27.414 +05:30 [INF] HTTP GET /favicon.ico responded 304 in 6.7757 ms
+2024-01-17 11:28:27.415 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/favicon.ico - 304 null image/x-icon 7.5175ms
+2024-01-17 11:28:32.096 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:32.097 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:32.100 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:32.103 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:32.110 +05:30 [INF] Executed ViewResult - view Status executed in 8.5186ms.
+2024-01-17 11:28:32.110 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 9.9176ms
+2024-01-17 11:28:32.110 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:32.110 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 13.9404 ms
+2024-01-17 11:28:32.111 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 15.1162ms
+2024-01-17 11:28:32.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:32.129 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.7918ms
+2024-01-17 11:28:35.203 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/PendingForm - null null
+2024-01-17 11:28:35.207 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.PendingForm (Webapplication)'
+2024-01-17 11:28:35.209 +05:30 [INF] Route matched with {action = "PendingForm", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PendingForm() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:35.419 +05:30 [WRN] No store type was specified for the decimal property 'Cost1' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:28:35.419 +05:30 [WRN] No store type was specified for the decimal property 'Cost2' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:28:35.419 +05:30 [WRN] No store type was specified for the decimal property 'Cost3' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:28:35.419 +05:30 [WRN] No store type was specified for the decimal property 'TotalCost' on entity type 'Employees'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-17 11:28:35.761 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0 AND [r].[Status] = N'Pending'
+2024-01-17 11:28:35.774 +05:30 [INF] Executing ViewResult, running view NoForm.
+2024-01-17 11:28:35.776 +05:30 [INF] Executed ViewResult - view NoForm executed in 2.8171ms.
+2024-01-17 11:28:35.776 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.PendingForm (Webapplication) in 566.9174ms
+2024-01-17 11:28:35.776 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.PendingForm (Webapplication)'
+2024-01-17 11:28:35.776 +05:30 [INF] HTTP GET /Employee/PendingForm responded 200 in 573.0533 ms
+2024-01-17 11:28:35.788 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/PendingForm - 200 null text/html; charset=utf-8 585.6085ms
+2024-01-17 11:28:35.789 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:35.789 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2116ms
+2024-01-17 11:28:37.676 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:37.677 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:37.678 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:37.682 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:37.684 +05:30 [INF] Executed ViewResult - view Status executed in 2.1422ms.
+2024-01-17 11:28:37.684 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 6.2899ms
+2024-01-17 11:28:37.685 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:37.685 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 8.2108 ms
+2024-01-17 11:28:37.686 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 9.7067ms
+2024-01-17 11:28:37.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:37.699 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.1937ms
+2024-01-17 11:28:39.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/ApprovedForm - null null
+2024-01-17 11:28:39.059 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.ApprovedForm (Webapplication)'
+2024-01-17 11:28:39.062 +05:30 [INF] Route matched with {action = "ApprovedForm", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ApprovedForm() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:39.099 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0 AND [r].[Status] = N'Approved'
+2024-01-17 11:28:39.104 +05:30 [INF] Executing ViewResult, running view ApprovedForm.
+2024-01-17 11:28:39.151 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0 AND [r].[Status] = N'Approved'
+2024-01-17 11:28:39.239 +05:30 [INF] Executed ViewResult - view ApprovedForm executed in 136.2721ms.
+2024-01-17 11:28:39.239 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.ApprovedForm (Webapplication) in 177.0151ms
+2024-01-17 11:28:39.239 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.ApprovedForm (Webapplication)'
+2024-01-17 11:28:39.239 +05:30 [INF] HTTP GET /Employee/ApprovedForm responded 200 in 180.6831 ms
+2024-01-17 11:28:39.240 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/ApprovedForm - 200 null text/html; charset=utf-8 181.7034ms
+2024-01-17 11:28:39.245 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:39.246 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1983ms
+2024-01-17 11:28:41.132 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - null null
+2024-01-17 11:28:41.133 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 11:28:41.135 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:41.154 +05:30 [INF] Executing ViewResult, running view Create.
+2024-01-17 11:28:41.232 +05:30 [INF] Executed ViewResult - view Create executed in 79.3727ms.
+2024-01-17 11:28:41.233 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 97.1084ms
+2024-01-17 11:28:41.234 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 11:28:41.234 +05:30 [INF] HTTP GET /Employee/Create responded 200 in 101.3134 ms
+2024-01-17 11:28:41.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - 200 null text/html; charset=utf-8 102.1899ms
+2024-01-17 11:28:41.240 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:41.240 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1771ms
+2024-01-17 11:28:42.351 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:42.352 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:42.352 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:42.353 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:42.355 +05:30 [INF] Executed ViewResult - view Status executed in 2.3018ms.
+2024-01-17 11:28:42.355 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 3.3079ms
+2024-01-17 11:28:42.356 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:42.356 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 4.5770 ms
+2024-01-17 11:28:42.357 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 5.1832ms
+2024-01-17 11:28:42.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:42.372 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2108ms
+2024-01-17 11:28:52.521 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:52.521 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:52.526 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:52.530 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:52.541 +05:30 [INF] Executed ViewResult - view Status executed in 12.1594ms.
+2024-01-17 11:28:52.541 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 13.8554ms
+2024-01-17 11:28:52.541 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:52.541 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 19.7108 ms
+2024-01-17 11:28:52.542 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 20.659ms
+2024-01-17 11:28:52.556 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:52.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.5233ms
+2024-01-17 11:28:56.525 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:28:56.526 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:56.528 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:28:56.531 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:28:56.538 +05:30 [INF] Executed ViewResult - view Status executed in 9.2602ms.
+2024-01-17 11:28:56.538 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 9.8422ms
+2024-01-17 11:28:56.538 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:28:56.538 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 13.2515 ms
+2024-01-17 11:28:56.539 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 13.7716ms
+2024-01-17 11:28:56.550 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:28:56.550 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1817ms
+2024-01-17 11:29:04.073 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:29:04.074 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:29:04.076 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:29:04.078 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:29:04.089 +05:30 [INF] Executed ViewResult - view Status executed in 11.9792ms.
+2024-01-17 11:29:04.089 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 12.8086ms
+2024-01-17 11:29:04.089 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:29:04.089 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 15.9744 ms
+2024-01-17 11:29:04.089 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 16.2341ms
+2024-01-17 11:29:04.098 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:29:04.099 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2342ms
+2024-01-17 11:32:57.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-17 11:32:57.289 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:32:57.290 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 11:32:57.291 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-17 11:32:57.295 +05:30 [INF] Executed ViewResult - view LoginPage executed in 4.5896ms.
+2024-01-17 11:32:57.295 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 4.7985ms
+2024-01-17 11:32:57.295 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:32:57.295 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 6.5002 ms
+2024-01-17 11:32:57.295 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 7.097ms
+2024-01-17 11:32:57.314 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:32:57.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4138ms
+2024-01-17 11:33:19.031 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-17 11:33:19.033 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:33:19.034 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 11:33:19.036 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Start.
+2024-01-17 11:33:19.036 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 2.2667ms
+2024-01-17 11:33:19.036 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 11:33:19.037 +05:30 [INF] HTTP POST /Login/LoginPage responded 307 in 4.9898 ms
+2024-01-17 11:33:19.037 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 307 0 null 5.3515ms
+2024-01-17 11:33:19.048 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Start - application/x-www-form-urlencoded 224
+2024-01-17 11:33:19.052 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 11:33:19.054 +05:30 [INF] Route matched with {action = "Start", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Start() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:33:19.054 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Status.
+2024-01-17 11:33:19.054 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Start (Webapplication) in 0.5123ms
+2024-01-17 11:33:19.054 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 11:33:19.055 +05:30 [INF] HTTP POST /Employee/Start responded 302 in 6.1641 ms
+2024-01-17 11:33:19.055 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Start - 302 0 null 6.4306ms
+2024-01-17 11:33:19.057 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 11:33:19.057 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:33:19.058 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 11:33:19.058 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 11:33:19.059 +05:30 [INF] Executed ViewResult - view Status executed in 0.6295ms.
+2024-01-17 11:33:19.059 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 1.1582ms
+2024-01-17 11:33:19.059 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 11:33:19.059 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 2.0633 ms
+2024-01-17 11:33:19.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 2.4379ms
+2024-01-17 11:33:19.069 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 11:33:19.070 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.1455ms
+2024-01-17 13:56:25.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - null null
+2024-01-17 13:56:25.028 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 13:56:25.035 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:56:25.037 +05:30 [INF] Accessing expired session, Key:266bdebb-b21e-e20e-7307-59cd1034e423
+2024-01-17 13:56:25.053 +05:30 [INF] Executing RedirectResult, redirecting to /Login/LoginPage.
+2024-01-17 13:56:25.053 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 17.986ms
+2024-01-17 13:56:25.053 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 13:56:25.053 +05:30 [INF] HTTP GET /Employee/Create responded 302 in 27.2605 ms
+2024-01-17 13:56:25.054 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - 302 0 null 28.2453ms
+2024-01-17 13:56:25.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-17 13:56:25.057 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:56:25.059 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 13:56:25.059 +05:30 [INF] Accessing expired session, Key:266bdebb-b21e-e20e-7307-59cd1034e423
+2024-01-17 13:56:25.062 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-17 13:56:25.066 +05:30 [INF] Executed ViewResult - view LoginPage executed in 6.5122ms.
+2024-01-17 13:56:25.066 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 7.2473ms
+2024-01-17 13:56:25.067 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:56:25.067 +05:30 [INF] Session started; Key:266bdebb-b21e-e20e-7307-59cd1034e423, Id:21667417-78db-e346-e880-8596ab95adc3
+2024-01-17 13:56:25.067 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 10.6237 ms
+2024-01-17 13:56:25.067 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 11.1636ms
+2024-01-17 13:56:25.097 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:56:25.098 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.9426ms
+2024-01-17 13:56:46.887 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-17 13:56:46.889 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:56:46.891 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 13:56:46.904 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Start.
+2024-01-17 13:56:46.905 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 14.1923ms
+2024-01-17 13:56:46.905 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:56:46.908 +05:30 [INF] HTTP POST /Login/LoginPage responded 307 in 20.4427 ms
+2024-01-17 13:56:46.908 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 307 0 null 21.4546ms
+2024-01-17 13:56:46.918 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Start - application/x-www-form-urlencoded 224
+2024-01-17 13:56:46.920 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 13:56:46.920 +05:30 [INF] Route matched with {action = "Start", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Start() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:56:46.922 +05:30 [INF] Executing RedirectResult, redirecting to /Employee/Status.
+2024-01-17 13:56:46.922 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Start (Webapplication) in 1.7833ms
+2024-01-17 13:56:46.922 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Start (Webapplication)'
+2024-01-17 13:56:46.923 +05:30 [INF] HTTP POST /Employee/Start responded 302 in 3.6576 ms
+2024-01-17 13:56:46.924 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Start - 302 0 null 5.7644ms
+2024-01-17 13:56:46.928 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 13:56:46.929 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 13:56:46.929 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:56:46.934 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 13:56:46.938 +05:30 [INF] Executed ViewResult - view Status executed in 7.3433ms.
+2024-01-17 13:56:46.938 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 9.0243ms
+2024-01-17 13:56:46.938 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 13:56:46.939 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 10.3853 ms
+2024-01-17 13:56:46.939 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 10.9467ms
+2024-01-17 13:56:46.953 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:56:46.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2899ms
+2024-01-17 13:56:51.032 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Create - null null
+2024-01-17 13:56:51.033 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 13:56:51.033 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:56:51.039 +05:30 [INF] Executing ViewResult, running view Create.
+2024-01-17 13:56:51.084 +05:30 [INF] Executed ViewResult - view Create executed in 46.4702ms.
+2024-01-17 13:56:51.084 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 50.9692ms
+2024-01-17 13:56:51.084 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 13:56:51.085 +05:30 [INF] HTTP GET /Employee/Create responded 200 in 52.2523 ms
+2024-01-17 13:56:51.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Create - 200 null text/html; charset=utf-8 52.5952ms
+2024-01-17 13:56:51.095 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:56:51.096 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1803ms
+2024-01-17 13:58:21.338 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Employee/Create - multipart/form-data; boundary=----WebKitFormBoundary1pGSfCBuAVgI3EBG 182495
+2024-01-17 13:58:21.339 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 13:58:21.353 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Webapplication.Models.Employees) on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:58:21.734 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 155) (DbType = AnsiString), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = DateTime2), @p14='?' (Size = 4000), @p15='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p16='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ReimbursementDetails] ([Attachment], [Cost1], [Cost2], [Cost3], [Description1], [Description2], [Description3], [EmployeeId], [EmployeeName], [EndDate], [ProjectTitle], [StartDate], [Status], [SubmittedDate], [Suggesstion], [TotalCost], [TripTo])
+OUTPUT INSERTED.[ReimbursementNo]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2024-01-17 13:58:21.831 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 13:58:21.837 +05:30 [INF] Executed ViewResult - view Status executed in 6.5063ms.
+2024-01-17 13:58:21.851 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Create (Webapplication) in 498.0771ms
+2024-01-17 13:58:21.851 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Create (Webapplication)'
+2024-01-17 13:58:21.854 +05:30 [INF] HTTP POST /Employee/Create responded 200 in 515.6069 ms
+2024-01-17 13:58:21.879 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Employee/Create - 200 null text/html; charset=utf-8 541.2891ms
+2024-01-17 13:58:21.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:21.887 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1789ms
+2024-01-17 13:58:25.136 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/PendingForm - null null
+2024-01-17 13:58:25.137 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.PendingForm (Webapplication)'
+2024-01-17 13:58:25.139 +05:30 [INF] Route matched with {action = "PendingForm", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PendingForm() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:58:25.148 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0 AND [r].[Status] = N'Pending'
+2024-01-17 13:58:25.149 +05:30 [INF] Executing ViewResult, running view PendingForm.
+2024-01-17 13:58:25.184 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0 AND [r].[Status] = N'Pending'
+2024-01-17 13:58:25.192 +05:30 [INF] Executed ViewResult - view PendingForm executed in 43.3352ms.
+2024-01-17 13:58:25.192 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.PendingForm (Webapplication) in 53.0305ms
+2024-01-17 13:58:25.192 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.PendingForm (Webapplication)'
+2024-01-17 13:58:25.192 +05:30 [INF] HTTP GET /Employee/PendingForm responded 200 in 55.6155 ms
+2024-01-17 13:58:25.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/PendingForm - 200 null text/html; charset=utf-8 55.9282ms
+2024-01-17 13:58:25.201 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:25.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.0419ms
+2024-01-17 13:58:27.934 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee - null null
+2024-01-17 13:58:27.935 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-17 13:58:27.938 +05:30 [INF] Route matched with {action = "Index", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:58:27.943 +05:30 [INF] Executing ViewResult, running view Index.
+2024-01-17 13:58:27.972 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__GetString_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[EmployeeId] = @__GetString_0
+2024-01-17 13:58:28.001 +05:30 [INF] Executed ViewResult - view Index executed in 60.0395ms.
+2024-01-17 13:58:28.001 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Index (Webapplication) in 62.8535ms
+2024-01-17 13:58:28.001 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Index (Webapplication)'
+2024-01-17 13:58:28.001 +05:30 [INF] HTTP GET /Employee responded 200 in 66.2821 ms
+2024-01-17 13:58:28.002 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee - 200 null text/html; charset=utf-8 67.633ms
+2024-01-17 13:58:28.009 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:28.009 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1872ms
+2024-01-17 13:58:31.544 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Employee/Status - null null
+2024-01-17 13:58:31.544 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 13:58:31.544 +05:30 [INF] Route matched with {action = "Status", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Status() on controller Webapplication.Controllers.EmployeeController (Webapplication).
+2024-01-17 13:58:31.545 +05:30 [INF] Executing ViewResult, running view Status.
+2024-01-17 13:58:31.546 +05:30 [INF] Executed ViewResult - view Status executed in 0.8857ms.
+2024-01-17 13:58:31.546 +05:30 [INF] Executed action Webapplication.Controllers.EmployeeController.Status (Webapplication) in 1.5386ms
+2024-01-17 13:58:31.546 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.EmployeeController.Status (Webapplication)'
+2024-01-17 13:58:31.546 +05:30 [INF] HTTP GET /Employee/Status responded 200 in 2.2133 ms
+2024-01-17 13:58:31.546 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Employee/Status - 200 null text/html; charset=utf-8 2.5434ms
+2024-01-17 13:58:31.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:31.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.7609ms
+2024-01-17 13:58:37.293 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Login/LoginPage - null null
+2024-01-17 13:58:37.294 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:58:37.294 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage() on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 13:58:37.295 +05:30 [INF] Executing ViewResult, running view LoginPage.
+2024-01-17 13:58:37.297 +05:30 [INF] Executed ViewResult - view LoginPage executed in 2.2476ms.
+2024-01-17 13:58:37.297 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 2.5654ms
+2024-01-17 13:58:37.297 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:58:37.297 +05:30 [INF] HTTP GET /Login/LoginPage responded 200 in 3.3047 ms
+2024-01-17 13:58:37.297 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Login/LoginPage - 200 null text/html; charset=utf-8 3.8911ms
+2024-01-17 13:58:37.321 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:37.322 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2037ms
+2024-01-17 13:58:44.114 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5006/Login/LoginPage - application/x-www-form-urlencoded 224
+2024-01-17 13:58:44.114 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:58:44.115 +05:30 [INF] Route matched with {action = "LoginPage", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginPage(Webapplication.Models.Account) on controller Webapplication.Controllers.LoginController (Webapplication).
+2024-01-17 13:58:44.117 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Home.
+2024-01-17 13:58:44.117 +05:30 [INF] Executed action Webapplication.Controllers.LoginController.LoginPage (Webapplication) in 2.7842ms
+2024-01-17 13:58:44.118 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.LoginController.LoginPage (Webapplication)'
+2024-01-17 13:58:44.118 +05:30 [INF] HTTP POST /Login/LoginPage responded 302 in 3.7518 ms
+2024-01-17 13:58:44.118 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5006/Login/LoginPage - 302 0 null 4.2091ms
+2024-01-17 13:58:44.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Home - null null
+2024-01-17 13:58:44.122 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Home (Webapplication)'
+2024-01-17 13:58:44.125 +05:30 [INF] Route matched with {action = "Home", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Home() on controller Webapplication.Controllers.AdminController (Webapplication).
+2024-01-17 13:58:44.142 +05:30 [INF] Executing ViewResult, running view Home.
+2024-01-17 13:58:44.193 +05:30 [INF] Executed ViewResult - view Home executed in 52.9637ms.
+2024-01-17 13:58:44.194 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Home (Webapplication) in 68.8945ms
+2024-01-17 13:58:44.195 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Home (Webapplication)'
+2024-01-17 13:58:44.195 +05:30 [INF] HTTP GET /Admin/Home responded 200 in 72.9025 ms
+2024-01-17 13:58:44.195 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Home - 200 null text/html; charset=utf-8 73.798ms
+2024-01-17 13:58:44.203 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:44.203 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1388ms
+2024-01-17 13:58:48.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Reports - null null
+2024-01-17 13:58:48.395 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2024-01-17 13:58:48.398 +05:30 [INF] Route matched with {action = "Reports", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Reports(Webapplication.Models.Employees) on controller Webapplication.Controllers.AdminController (Webapplication).
+2024-01-17 13:58:48.408 +05:30 [INF] Executing ViewResult, running view Reports.
+2024-01-17 13:58:48.452 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[Status] <> N'Approved' OR ([r].[Status] IS NULL)
+2024-01-17 13:58:48.461 +05:30 [INF] Executed ViewResult - view Reports executed in 55.1584ms.
+2024-01-17 13:58:48.461 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Reports (Webapplication) in 63.6242ms
+2024-01-17 13:58:48.462 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2024-01-17 13:58:48.462 +05:30 [INF] HTTP GET /Admin/Reports responded 200 in 70.2379 ms
+2024-01-17 13:58:48.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Reports - 200 null text/html; charset=utf-8 70.575ms
+2024-01-17 13:58:48.473 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:48.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.1704ms
+2024-01-17 13:58:51.419 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Files/Certificate245821420.pdf - null null
+2024-01-17 13:58:51.466 +05:30 [INF] Sending file. Request path: '/Files/Certificate245821420.pdf'. Physical path: 'C:\Users\dhivyan.kumar\Desktop\Application\Reimbursement_application\Webapplication\wwwroot\Files\Certificate245821420.pdf'
+2024-01-17 13:58:51.466 +05:30 [INF] HTTP GET /Files/Certificate245821420.pdf responded 200 in 47.0734 ms
+2024-01-17 13:58:51.467 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Files/Certificate245821420.pdf - 200 179963 application/pdf 48.1841ms
+2024-01-17 13:58:55.711 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Reports - null null
+2024-01-17 13:58:55.712 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2024-01-17 13:58:55.712 +05:30 [INF] Route matched with {action = "Reports", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Reports(Webapplication.Models.Employees) on controller Webapplication.Controllers.AdminController (Webapplication).
+2024-01-17 13:58:55.714 +05:30 [INF] Executing ViewResult, running view Reports.
+2024-01-17 13:58:55.720 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[ReimbursementNo], [r].[Attachment], [r].[Cost1], [r].[Cost2], [r].[Cost3], [r].[Description1], [r].[Description2], [r].[Description3], [r].[EmployeeId], [r].[EmployeeName], [r].[EndDate], [r].[ProjectTitle], [r].[StartDate], [r].[Status], [r].[SubmittedDate], [r].[Suggesstion], [r].[TotalCost], [r].[TripTo]
+FROM [ReimbursementDetails] AS [r]
+WHERE [r].[Status] <> N'Approved' OR ([r].[Status] IS NULL)
+2024-01-17 13:58:55.726 +05:30 [INF] Executed ViewResult - view Reports executed in 11.7126ms.
+2024-01-17 13:58:55.726 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Reports (Webapplication) in 13.7397ms
+2024-01-17 13:58:55.726 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Reports (Webapplication)'
+2024-01-17 13:58:55.726 +05:30 [INF] HTTP GET /Admin/Reports responded 200 in 14.2006 ms
+2024-01-17 13:58:55.726 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Reports - 200 null text/html; charset=utf-8 14.7579ms
+2024-01-17 13:58:55.751 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:55.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.5246ms
+2024-01-17 13:58:59.844 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/Admin/Home - null null
+2024-01-17 13:58:59.845 +05:30 [INF] Executing endpoint 'Webapplication.Controllers.AdminController.Home (Webapplication)'
+2024-01-17 13:58:59.845 +05:30 [INF] Route matched with {action = "Home", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Home() on controller Webapplication.Controllers.AdminController (Webapplication).
+2024-01-17 13:58:59.846 +05:30 [INF] Executing ViewResult, running view Home.
+2024-01-17 13:58:59.849 +05:30 [INF] Executed ViewResult - view Home executed in 2.6972ms.
+2024-01-17 13:58:59.850 +05:30 [INF] Executed action Webapplication.Controllers.AdminController.Home (Webapplication) in 4.9685ms
+2024-01-17 13:58:59.851 +05:30 [INF] Executed endpoint 'Webapplication.Controllers.AdminController.Home (Webapplication)'
+2024-01-17 13:58:59.851 +05:30 [INF] HTTP GET /Admin/Home responded 200 in 6.1059 ms
+2024-01-17 13:58:59.851 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/Admin/Home - 200 null text/html; charset=utf-8 6.7012ms
+2024-01-17 13:58:59.867 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-17 13:58:59.868 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5006/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.2458ms
+2024-01-17 14:25:15.949 +05:30 [INF] Application is shutting down...
